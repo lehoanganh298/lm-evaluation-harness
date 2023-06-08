@@ -85,6 +85,7 @@ class HuggingFaceAutoLM(BaseLM):
         device: Optional[Union[int, str]] = "cuda",
         peft: str = None,
         load_in_8bit: Optional[bool] = False,
+        device_map: Optional[str] = None,
         trust_remote_code: Optional[bool] = False,
     ):
         """Initializes a HuggingFace `AutoModel` and `AutoTokenizer` for evaluation.
@@ -190,12 +191,14 @@ class HuggingFaceAutoLM(BaseLM):
                 offload_folder,
             )
         model_kwargs["load_in_8bit"] = load_in_8bit
+        model_kwargs["device_map"] = device_map
         self.model = self._create_auto_model(
             pretrained=pretrained,
             trust_remote_code=trust_remote_code,
             revision=revision,
             subfolder=subfolder,
             torch_dtype=_get_dtype(dtype, self._config),
+
             **model_kwargs,
         )
         # note: peft_path can be different than pretrained model path
@@ -217,8 +220,8 @@ class HuggingFaceAutoLM(BaseLM):
             # the user specified one so we force `self._device` to be the same as
             # `lm_head`'s.
             self._device = self.model.hf_device_map["lm_head"]
-        if not use_accelerate:
-            self.model.to(self._device)
+        # if not use_accelerate:
+        #     self.model.to(self._device)
 
     def _create_auto_model(
         self,
@@ -236,13 +239,18 @@ class HuggingFaceAutoLM(BaseLM):
         """Returns a pre-trained pytorch model from a pre-trained model configuration."""
         model = self.AUTO_MODEL_CLASS.from_pretrained(
             pretrained,
-            revision=revision + ("/" + subfolder if subfolder is not None else ""),
-            device_map=device_map,
-            max_memory=max_memory,
-            offload_folder=offload_folder,
-            load_in_8bit=load_in_8bit,
-            trust_remote_code=trust_remote_code,
-            torch_dtype=torch_dtype,
+            # revision=revision + ("/" + subfolder if subfolder is not None else ""),
+            # device_map=device_map,
+            # max_memory=max_memory,
+            # offload_folder=offload_folder,
+            # load_in_8bit=load_in_8bit,
+            # trust_remote_code=trust_remote_code,
+            # torch_dtype=torch_dtype,
+            load_in_8bit=True, 
+            device_map='auto', 
+            low_cpu_mem_usage=True,
+            torch_dtype=torch.float16, 
+            offload_state_dict=True
         )
         return model
 
@@ -424,8 +432,10 @@ class HuggingFaceAutoLM(BaseLM):
                 max_tokens = self.max_gen_toks
             else:
                 max_tokens = max_generation_length
-
+            print(len(context[0]), context)
             token_context = self.tok_encode_batch(context)
+            print(token_context['input_ids'].shape)
+            print('-'*30)
 
             responses = self._model_generate(
                 inputs=token_context,

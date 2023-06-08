@@ -244,7 +244,9 @@ def evaluate(
         #       they should end up next to each other.
 
         print("Running", reqtype, "requests")
-        resps = getattr(lm, reqtype)([req.args for req in reqs])
+        req_fn = getattr(lm, reqtype)
+        req_args = [req.args for req in reqs]
+        resps = req_fn(req_args)
         resps = [
             x if req.index is None else x[req.index] for x, req in zip(resps, reqs)
         ]

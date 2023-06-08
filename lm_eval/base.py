@@ -438,6 +438,7 @@ class Task(abc.ABC):
     # The name of the `Task` benchmark as denoted in the HuggingFace datasets Hub
     # or a path to a custom `datasets` loading script.
     DATASET_PATH: str = None
+    DATASET_OBJ: str = None
 
     # The name of a subset within `DATASET_PATH`.
     DATASET_NAME: str = None
@@ -494,13 +495,16 @@ class Task(abc.ABC):
             - `datasets.DownloadMode.FORCE_REDOWNLOAD`
                 Fresh download and fresh dataset.
         """
-        self.dataset = datasets.load_dataset(
-            path=self.DATASET_PATH,
-            name=self.DATASET_NAME,
-            data_dir=data_dir,
-            cache_dir=cache_dir,
-            download_mode=download_mode,
-        )
+        if self.DATASET_OBJ is not None:
+            self.dataset = self.DATASET_OBJ
+        else:
+            self.dataset = datasets.load_dataset(
+                path=self.DATASET_PATH,
+                name=self.DATASET_NAME,
+                data_dir=data_dir,
+                cache_dir=cache_dir,
+                download_mode=download_mode,
+            )
 
     def should_decontaminate(self):
         """Whether this task supports decontamination against model training set."""

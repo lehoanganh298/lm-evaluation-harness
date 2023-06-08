@@ -59,7 +59,7 @@ from . import xwinograd
 from . import pawsx
 from . import xnli
 from . import mgsm
-
+from . import kiki_qae2squad
 ########################################
 # Translation tasks
 ########################################
@@ -313,6 +313,10 @@ TASK_REGISTRY = {
     "crows_pairs_french_nationality": crowspairs.CrowsPairsFrenchNationality,
     "crows_pairs_french_physical_appearance": crowspairs.CrowsPairsFrenchPhysicalAppearance,
     "crows_pairs_french_autre": crowspairs.CrowsPairsFrenchAutre,
+    "kiki_qae2squad": kiki_qae2squad.Kiki_QAE,
+    
+    
+    
     # Requires manual download of data.
     # "storycloze_2016": storycloze.StoryCloze2016,
     # "storycloze_2018": storycloze.StoryCloze2018,
