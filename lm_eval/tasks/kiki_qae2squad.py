@@ -8,6 +8,10 @@ import datasets
 from lm_eval.base import Task, rf
 from math import exp
 from functools import partial
+from pathlib import Path
+
+#Returns the path of the current directory
+filepath = Path().absolute()
 
 def _squad_metric(predictions, references):
     squad_metric = datasets.load_metric("squad_v2")
@@ -29,7 +33,7 @@ class Kiki_QAE(Task):
     DATASET_NAME = None
 
     DATASET_OBJ = datasets.load_dataset('json', data_files={
-        'test': '/data4/share_nlp/data/anhlh/gpt_experiment/lm-evaluation-harness/lm_eval/datasets/kiki_qae2squad/kiki_qae2squad.json'
+        'test': str(filepath/'lm_eval/datasets/kiki_qae2squad/kiki_qae2squad.json')
         }, field='data')
 
     def has_training_docs(self):

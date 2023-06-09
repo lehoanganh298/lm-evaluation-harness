@@ -192,6 +192,7 @@ class HuggingFaceAutoLM(BaseLM):
             )
         model_kwargs["load_in_8bit"] = load_in_8bit
         model_kwargs["device_map"] = device_map
+        self._device = device
         self.model = self._create_auto_model(
             pretrained=pretrained,
             trust_remote_code=trust_remote_code,
@@ -214,7 +215,6 @@ class HuggingFaceAutoLM(BaseLM):
         self.model.eval()
         torch.set_grad_enabled(False)
 
-        self._device = device
         if use_accelerate and "lm_head" in self.model.hf_device_map:
             # `accelerate` can place `lm_head` weights on a different device than
             # the user specified one so we force `self._device` to be the same as
@@ -237,6 +237,7 @@ class HuggingFaceAutoLM(BaseLM):
         torch_dtype: Optional[Union[str, torch.dtype]] = None,
     ) -> transformers.AutoModel:
         """Returns a pre-trained pytorch model from a pre-trained model configuration."""
+        print('Start start loading model...')
         model = self.AUTO_MODEL_CLASS.from_pretrained(
             pretrained,
             # revision=revision + ("/" + subfolder if subfolder is not None else ""),
@@ -246,12 +247,15 @@ class HuggingFaceAutoLM(BaseLM):
             # load_in_8bit=load_in_8bit,
             # trust_remote_code=trust_remote_code,
             # torch_dtype=torch_dtype,
-            load_in_8bit=True, 
-            device_map='auto', 
+            # load_in_8bit=True, 
+            # device_map='auto', 
             low_cpu_mem_usage=True,
             torch_dtype=torch.float16, 
             offload_state_dict=True
         )
+        model.to(self.device)
+        print('Done done loading model...')
+        
         return model
 
     def _create_auto_model_peft(
@@ -432,7 +436,6 @@ class HuggingFaceAutoLM(BaseLM):
                 max_tokens = self.max_gen_toks
             else:
                 max_tokens = max_generation_length
-            print(len(context[0]), context)
             token_context = self.tok_encode_batch(context)
             print(token_context['input_ids'].shape)
             print('-'*30)

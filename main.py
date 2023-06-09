@@ -1,5 +1,4 @@
 import os
-os.environ['CUDA_VISIBLE_DEVICES']='5'
 os.environ['HF_DATASETS_CACHE']='/data4/share_nlp/data/luannd/dataset_hub/'
 import argparse
 import json
