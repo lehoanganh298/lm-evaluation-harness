@@ -23,6 +23,8 @@ def simple_evaluate(
     description_dict=None,
     check_integrity=False,
     decontamination_ngrams_path=None,
+    check_inp_out_num=10,
+    get_result_num=100
 ):
 
     """Instantiate and evaluate a model on a list of tasks.
@@ -91,6 +93,9 @@ def simple_evaluate(
         bootstrap_iters=bootstrap_iters,
         description_dict=description_dict,
         decontamination_ngrams_path=decontamination_ngrams_path,
+        check_inp_out_num=check_inp_out_num,
+        get_result_num=get_result_num
+
     )
 
     # add info about the model and few shot config
@@ -122,6 +127,8 @@ def evaluate(
     bootstrap_iters=100000,
     description_dict=None,
     decontamination_ngrams_path=None,
+    check_inp_out_num=None,
+    get_result_num=None
 ):
     """Instantiate and evaluate a model on a list of tasks.
 
@@ -236,6 +243,9 @@ def evaluate(
     # all responses for each (task, doc)
     process_res_queue = collections.defaultdict(list)
 
+    if check_inp_out_num is not None:
+        inp_out = {}
+
     # execute each type of request
     for reqtype, reqs in requests.items():
         # TODO: right now, this code runs multiple separate LM requests for multiple Requests differing
@@ -251,11 +261,14 @@ def evaluate(
             x if req.index is None else x[req.index] for x, req in zip(resps, reqs)
         ]
 
+        inp_out[reqtype] = list(zip(resps, reqs))[:check_inp_out_num]
+
         for resp, (i, task_name, doc, doc_id) in zip(resps, requests_origin[reqtype]):
             process_res_queue[(task_name, doc_id)].append((i, resp))
 
     vals = collections.defaultdict(list)
 
+    doc_results = []
     # unpack results and sort back in order and return control to Task
     for (task_name, doc_id), requests in process_res_queue.items():
         requests.sort(key=lambda x: x[0])
@@ -265,6 +278,9 @@ def evaluate(
         doc = docs[(task_name, doc_id)]
 
         metrics = task.process_results(doc, requests)
+        
+        doc_results.append({'doc': doc, 'result': requests, 'metric': metric})
+
         for metric, value in metrics.items():
             vals[(task_name, metric)].append(value)
 
@@ -296,7 +312,13 @@ def evaluate(
         if stderr is not None:
             results[task_name][metric + "_stderr"] = stderr(items)
 
-    return {"results": dict(results), "versions": dict(versions)}
+    return_obj = {"results": dict(results), "versions": dict(versions)}
+
+    if check_inp_out_num is not None:
+        return_obj['inp_out'] = inp_out[:check_inp_out_num]
+
+    if get_result_num is not None:
+        return_obj['doc_results'] = doc_results[:get_result_num]
 
 
 def make_table(result_dict):
