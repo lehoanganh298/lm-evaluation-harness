@@ -93,6 +93,22 @@ def main():
         check_integrity=args.check_integrity,
     )
 
+    if 'inp_out' in results:
+        if args.output_path:
+            inp_out_file = args.output_path.split('.')[0]+'_inp_out.json'
+        else:
+            inp_out_file = 'inp_out.json'
+        with open(inp_out_file,'w') as fw:
+            json.dump(results['inp_out'], fw, ensure_ascii=False, indent=2)
+
+    if 'doc_results' in results:
+        if args.output_path:
+            doc_results_file = args.output_path.split('.')[0]+'_doc_results.json'
+        else:
+            doc_results_file = 'doc_results.json'
+        with open(doc_results_file,'w') as fw:
+            json.dump(results['doc_results'], fw, ensure_ascii=False, indent=2)
+
     dumped = json.dumps(results, indent=2)
     print(dumped)
 
