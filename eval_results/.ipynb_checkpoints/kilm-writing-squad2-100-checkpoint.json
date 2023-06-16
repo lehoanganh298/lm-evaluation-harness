@@ -1,0 +1,28 @@
+{
+  "results": {
+    "squad2": {
+      "exact": 14.0,
+      "f1": 18.4764798500233,
+      "HasAns_exact": 26.41509433962264,
+      "HasAns_f1": 34.86128273589302,
+      "NoAns_exact": 0.0,
+      "NoAns_f1": 0.0,
+      "best_exact": 49.0,
+      "best_f1": 49.03846153846154
+    }
+  },
+  "versions": {
+    "squad2": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/kilm-writing,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": true,
+    "limit": 100,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

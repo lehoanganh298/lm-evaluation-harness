@@ -1,0 +1,25 @@
+{
+  "results": {
+    "arc_easy": {
+      "acc": 0.28324915824915825,
+      "acc_stderr": 0.009245632200075456,
+      "acc_norm": 0.2984006734006734,
+      "acc_norm_stderr": 0.009388855914040428
+    }
+  },
+  "versions": {
+    "arc_easy": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/gpt-j-6B-vietnamese-news,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  },
+  "eval_time": 2106.5505979061127
+}

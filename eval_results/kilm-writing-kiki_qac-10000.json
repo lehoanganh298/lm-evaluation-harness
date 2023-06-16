@@ -1,0 +1,25 @@
+{
+  "results": {
+    "kiki_qac": {
+      "acc": 0.6990318906605922,
+      "acc_stderr": 0.007740933202964953,
+      "acc_norm": 0.7015945330296127,
+      "acc_norm_stderr": 0.007722022649184882
+    }
+  },
+  "versions": {
+    "kiki_qac": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/kilm-writing,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": false,
+    "limit": 10000,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  },
+  "eval_time": 3358.9928307533264
+}

@@ -1,0 +1,1802 @@
+[
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Kĩ thuật cắt kim cương vừa là một môn khoa học vừa là một nghệ thuật . Nó miêu tả quá trình viên kim cương được thành hình và đánh bóng từ dạng viên đá đầu tiên đến một viên ngọc sáng ngời .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"cái gì có khả năng cắt kim cương\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.455078125,
+      -0.10791015625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Hoàng Việt luật lệ hay còn được biết đến với tên Hoàng triều luật lệ , Quốc triều điều luật , Nguyễn triều hình luật , bộ luật Gia Long là bộ luật chính thức của Việt Nam thời đầu nhà Nguyễn do Bắc thành Tổng trấn Nguyễn Văn Thành soạn thảo và vua Gia Long cho ban hành năm 1815 .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Hoàng Việt luật lệ ở thời nhà Nguyễn được ban hành năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.39453125,
+      -0.12939453125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ngoài Hàn lâm viện , Quốc sử viện , nhà Thái học , Quốc Tử Giám là những cơ quan văn hoá , giáo dục lớn , Lê Thánh Tông còn cho xây kho bí thư chứa sách , đặc biệt đã sáng lập Hội Tao Đàn bao gồm những nhà văn hoá có tiếng đương thời mà Lê Thánh Tông là Tao Đàn chủ soái .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Lê Thánh tông ở ngôi được bao nhiêu năm\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.4326171875,
+      -0.3486328125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Nhiều loài độc hại . Mặc dù những cái tên như \" Hoa hồng mùa đông \" , \" Hoa hồng Giáng sinh \" , \" Hoa hồng Lenten \" , Helleborus lại không có mối quan hệ gần gũi với họ Hoa hồng .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Helleborus thuộc họ gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.93359375,
+      -0.056732177734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Vào cuối năm đó , Edward thoái vị và cha bà trở thành vua . Elizabeth từ đó trở thành người thừa kế ngai vàng , và do đó được gọi là \" Her Royal Highness Công chúa Elizabeth \" .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Elizabeth có tôn xưng là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -0.86376953125,
+      -0.62890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Hải dương học là một nhánh của các Khoa học về Trái Đất nghiên cứu về đại dương . Hải dương bao gồm nhiều chủ đề như sinh vật biển và động học sinh thái ; hải lưu , sóng biển , và động lực chất lỏng ; kiến tạo mảng và địa chất đáy biển ; và thông lượng của nhiều chất hoá học và tính chất vật lý trong đại dương và các ranh giới mà nó vận chuyển qua .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Đối tượng nghiên cứu của hải dương học là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -0.98583984375,
+      -0.54248046875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Kinh tế của Palawan chủ yếu phụ thuộc vào nông nghiệp . Các ngành khai mỏ gồm có Niken , đồng , mangan và crôm . Khai thác lâm sản cũng là một ngành kinh tế quan trọng . Palawan là một trong những vùng giàu tài nguyên thuỷ sản nhất Philippines với khoảng 45% nguồn cung cấp cá cho khu vực thủ đô Manila đến từ tỉnh này .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Trữ lượng khí ga tự nhiên ở Palawan bao nhiêu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.767578125,
+      -0.69384765625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Nhiều con người và gia đình họ là nạn nhân của Chỉ thị Z30 này ; trong đó có những người khá nổi tiếng như ông \" vua lốp \" Nguyễn Văn Chẩn .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Chỉ thị Z30 xuất hiện từ khi nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.125,
+      -0.441162109375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Các cây gỗ quan trọng nhất là Mắm ( hay Mấm ) , Đước , Vẹt , Bần , Dà ( Ceriops ) . Mắm trắng ( Mắm lưỡi đòng ) ( Avicemnia alba ) và Bần trắng ( Sorineratia alba ) phát triển theo hướng biển , còn Mắm quăn ( Avicennia lanata ) và Mắm đen ( Avicennia officinalis ) hướng về phía đất liền .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"cây ngập mặn phổ biến nhất là cây gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.96533203125,
+      -0.5703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: \" Quái vật \" biển gây tranh luận trong thời hiện đại có thể là cá mập , mực khổng lồ , thuỷ triều giả và cá heo . Ví dụ Eliis ( 1999 ) đề xuất rằng quái vật biển thực tế có thể là mực khổng lồ . Có thể còn có mối liên quan khác tới bò sát khổng lồ dưới biển kỷ Jura ( \" Jurassic \" ) và kỷ Phấn trắng ( \" Cretaceous \" ) như ngư long cũng như loài cá heo đã tuyệt chủng \" Basilosaurus \" .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Các loài quái vật biển là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.8671875,
+      -0.64697265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Năm xã còn lại ở tây Tuamotu là Arutua , Fakarava , Manihi , Rangiroa và Takaroa thì hợp thành khu bầu cử \" Îles Tuamotu Ouest \" ( nghĩa là \" quần đảo Tuamotu Tây \" ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Quần đảo Tuamotu có bao nhiêu xã\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.9609375,
+      -0.201904296875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ngày 21-4-1969 , chia xã Vĩnh Thành thành 3 xã : Vĩnh Thành , Nhân Thành , Long Thành ; chia xã Công Thành thành 2 xã : Công Thành và Mỹ Thành .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Yên Thành nổi tiếng với 2 con kênh nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.0517578125,
+      -0.5458984375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Dãy núi Pamir là một dãy núi nằm tại Trung Á , được tạo thành từ sự nối liền hay điểm nút của các dãy núi Thiên Sơn , Karakoram , Côn Lôn và Hindu Kush . Dãy núi này là một trong các dãy núi cao nhất thế giới . Dãy núi này được biết đến trong tiếng Trung như là \" Thông Lĩnh \" 葱嶺 tức ' núi củ hành ' .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Núi Pamir trải dài qua các quốc gia nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.951171875,
+      -0.1173095703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ông mất ngày 30 tháng 3 năm Canh Ngọ ( tức 30 tháng 4 năm 1870 ) , lúc 51 tuổi . Thuỵ là Văn Nhã ( 文雅 ) . Năm 1878 , ông được Tự Đức gia tặng là Tùng Thiện Quận vương ( 從善郡王 ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tùng Thiện Vương qua đời năm bao nhiêu tuổi\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.0830078125,
+      -0.47802734375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Điện thoại thông minh ngày nay bao gồm tất cả chức năng của laptop như duyệt web , Wi-Fi , các ứng dụng của bên thứ 3 trên di động và các phụ kiện đi kèm cho máy .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Điện thoại thông minh là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.83984375,
+      -0.10894775390625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Thu nhập từ Tài sản Vương thất Anh - có giá trị 7 tỷ bảng - được chuyển sang ngân khố Anh của bà để chi trả cho nhân viên Vương thất . Cả Tài sản Vương thất và đất đai Vương thất tại Canada - bao gồm 89% ( hoặc xấp xỉ 8.885.000  km² ) diện tích 9.984.670  km² của Canada - do Elizabeth sở hữu phó thác cho quốc gia vì vai trò Quốc chủ của bà , và không được phép bán hoặc sở hữu như tài sản cá nhân .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tài sản cá nhân của nữ vương Elizabeth là bao nhiêu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.59228515625,
+      -0.9072265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Do nền kinh tế suy giảm và các thảm hoạ tự nhiên tàn phá , CHDCND Triều Tiên đã không có các nguồn lực để nhập khẩu thực phẩm hoặc các nguồn lực , người dân đã phải đối mặt với cái chết và nạn đói .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Nạn đói Bắc Triều Tiên đã làm chết bao nhiêu người\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.2001953125,
+      -0.431396484375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Sao Mộc chủ yếu chứa vật chất ở trạng thái khí và lỏng . Nó là hành tinh khí khổng lồ lớn nhất trong hệ Mặt Trời với đường kính 142.984  km tại xích đạo . Khối lượng riêng trung bình của hành tinh bằng 1,326 g / cm , và có khối lượng riêng lớn nhất trong số bốn hành tinh khí khổng lồ .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Đường kính của Sao Mộc là bao nhiêu km\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.009765625,
+      -0.161376953125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Đây là loài nhỏ nhất trong số các loại trăn châu Phi và là một loài vật nuôi tương đối phổ biến - nguyên do là tính tình tương đối dễ chịu của nó . Hiện nay chưa có phân loài nào của trăn hoàng gia được công nhận . Cái tên \" trăn quả bóng \" bắt nguồn từ việc con trăn có thói quen cuộn tròn lại thành hình quả bóng khi căng thẳng hay lo sợ còn cái tên \" trăn hoàng gia \" ( tiếng La Tinh : \" regius \" nghĩa là \" hoàng gia \" ) bắt nguồn từ thông tin cho rằng nữ hoàng Ai Cập Cleopatra VII thường mang loài trăn này trên cổ tay mình .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Số lượng trướng mà trăn hoàng gia có thể đẻ vào 1 lứa\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.037109375,
+      -0.4921875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Bản đồ cổ nhất thế giới mà đến nay còn biết có từ thiên niên kỷ 5 TCN . Những bản đồ cổ nhất làm nổi bật các quan hệ địa hình như sự quan hệ , sự gần kề và sự ngăn cách .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Bản đồ cổ nhất thế giới có từ lúc nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.470703125,
+      -0.31396484375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Hai tuần sau khi Lula ra đời , cha ông cùng Valdomira Ferreira de Góis , một người chị em họ của mẹ ông , chuyển tới Santos .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Lula bị tù giam trong thời gian bao lâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.0322265625,
+      -0.498291015625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Trong số 75 đến 100 bộ phim sản xuất mỗi năm của ngành điện ảnh Thái Lan trong thời gian này , Mitr đóng vai chính trong gần một nửa trong số đó .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Mitr Chaibancha lập gia đình vào thời gian nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.31640625,
+      -0.03619384765625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ngô Quyền hạ thành Đại La , giết Công Tiễn rồi bày trận trên sông Bạch Đằng đón quân Nam Hán .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Con trai đầu của Ngô Quyền tên gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.0439453125,
+      -0.5126953125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Vào lúc 6g GMT ngày 9 tháng 10 năm 2008 , cơ quan Không gian Ukraina ở Evpatoria đã gửi một thông điệp đến một siêu Trái Đất có tên gọi là Gliese 581 c . Nếu ở nơi đó có sự sống thì nhân loại sẽ hy vọng nhận được thông tin phản vào năm 2049 .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"siêu Trái Đất nhỏ nhất có ký hiệu là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.509765625,
+      -0.341552734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Văn phòng Hội đặt tại số 95/10 , phố Chùa Bộc , quận Đống Đa , Hà Nội .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tiền thân của Hội Công nghiệp Bê tông Việt Nam là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.1875,
+      -0.4306640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Cá này còn là nguồn thực phẩm chủ yếu ở Sri Lanka , nơi nó được hun khói và chế biến để làm món súp hoặc cà ri .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Cá ngừ sọc dưa là nguồn thực phẩm chính ở nước nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.107421875,
+      -0.4482421875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ngoài ra , thuỷ điện Bản Vẽ còn cung cấp nước sinh hoạt , sản xuất , đẩy mặn , chống lũ cho vùng hạ lưu sông Cả .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"diện tích hồ của thủy điện Bản Vẽ là bao nhiêu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.95654296875,
+      -0.5625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Trước đó , vào năm 1952 Đội tuyển bóng rổ quốc gia Việt Nam đã được thành lập và chính thức gia nhập FIBA .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Bóng rổ là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.6357421875,
+      -0.8251953125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Nằm ở vị trí trung tâm của tỉnh . Địa giới thành phố Thái Bình : Đông Nam và Nam giáp huyện Kiến Xương ; Tây và Tây Nam giáp huyện Vũ Thư ; Bắc giáp huyện Đông Hưng . Thành phố Thái Bình cách thủ đô Hà Nội 110  km về phía Tây Bắc , cách TP Hải Phòng 60  km về phía Đông Bắc , thành phố Nam Định 19  km về phía Tây .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Thái Bình cách thành phố Hà Nội bao nhiêu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -0.7529296875,
+      -0.72119140625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Hoạt động hô hấp của cây rừng ngập mặn được thực hiện thông qua những lỗ thông khí ( những khoảng mở nhỏ trên thân hoặc rễ ) . Một vài loài cây ngập mặn đã phát triển những hệ thống rễ chuyên dụng để đảm bảo các lỗ thông khí nằm phía trên mực nước thuỷ triều hay bùn ( vốn gây thiếu ôxi ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"cây rừng ngập mặn sinh ra những hạt giống được gọi là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.7578125,
+      -0.0618896484375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ở rìa đông nam của khu vực Pamir tại Trung Quốc , đường cao tốc Karakoram , đường cao tốc quốc tế cao nhất trên thế giới , nối liền Pakistan với Trung Quốc . Đường cao tốc Pamir , đường cao tốc cao thứ hai thế giới , chạy từ Dushanbe ở Tajikistan tới Osh ở Kyrgyzstan ngang qua tỉnh tự trị Gorno-Badakhshan và nó là hành trình cung cấp chính của khu vực cô lập này .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Núi Pamir trải dài qua các quốc gia nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.6005859375,
+      -0.296142578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Vân đang ở chức Kinh Châu hộ vệ chỉ huy đồng tri thì tòng chinh nhà Hồ ở Việt Nam . Tham gia đánh phá các cửa Pha Luỹ , Ải Lưu , thành Đa Bang , chiếm 2 đô Đông , Tây . Dẹp xong nhà Hồ , được điều làm Xương Giang vệ Chỉ huy sứ . Đầu thời Minh Nhân Tông ( 1424 ) , Vân theo Phương Chính đi dẹp nghĩa quân Lam Sơn ở châu Trà Long , trúng mai phục mà chết .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"ngũ vân là tướng lĩnh của triều đại nào ở trung quốc\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.48046875,
+      -0.1304931640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Đại cường quốc là một phân loại cao hơn so với trung cường quốc ( cường quốc tầm trung ) , là nước ít có khả năng ảnh hưởng phạm vi toàn cầu , chỉ tập trung chủ yếu ở một khu vực hay một châu lục .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Những đại cường quốc thường nắm sức mạnh về những mặt nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.1513671875,
+      -0.447021484375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ngày 27 tháng 5 năm 1894 , thuyền trưởng của tàu hơi nước \" Iwalani \" đến cắm cờ trên đảo Necker dưới danh nghĩa Chính phủ Lâm thời Hawaii .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Đảo Necker có bao nhiêu loài côn trùng\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.599609375,
+      -0.10662841796875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Chân thân Huyền Vũ trong Tứ Tượng , theo Sơn Hải Kinh Huyền Vũ đứng cuối cùng làm chủ Phương Bắc , thần thú viễn cổ .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Trấn Vũ là tên gọi của thần nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.11328125,
+      -0.09442138671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Thuỷ Ba là xã anh hùng , là quê hương của nữ anh hùng chống Mỹ Trương Thị Khuê . Cái tên \" Thuỷ Ba \" cho đến hôm nay vẫn chưa thôi vang vọng trong bài hát nổi tiếng của Nguyễn Văn Thương \" Hướng về Nam ... Ai đã vô Đông Hà , đã qua Hồ Xá , đã đi Bích La , Thuỷ Ba , Triệu Phong .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Thủy Ba xưa là căn cứ chống quân xâm lược nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.5,
+      -0.09979248046875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Trả lời báo chí thời điểm đó , Công Vinh khẳng định : \" Sự nghiệp cầu thủ ngắn rất ngắn ngủi , tôi muốn sưu tập đủ những danh hiệu , còn tiền bạc chỉ là vấn đề phụ \" .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Công Vinh có bao nhiêu năm thi đấu quốc tế\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.9111328125,
+      -0.61962890625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Súng không giật SPG-9 Kopye ( ngọn giáo ) là một loại pháo nòng trơn không giật chống tăng cỡ nòng 73  mm do Liên Xô phát triển và đưa vào sử dụng từ năm 1962 nhằm thay thế cho loại súng không giật 82mm B-10 . Nó có thể sử dụng các loại đạn trái phá HE hay nổ mạnh chống tăng HEAT .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"súng SPG-9 do nước nào phát triển\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.5205078125,
+      -0.3486328125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Mặt khác , Úc trước đây thuộc OFC đã gia nhập Liên đoàn bóng đá châu Á vào năm 2006 và đảo Guam , một lãnh thổ hải ngoại của Hoa Kỳ , cũng là thành viên của AFC . Hồng Kông và Ma Cao , mặc dù không phải là quốc gia độc lập ( cả hai đều là đặc khu hành chính đặc biệt của Trung Quốc ) , cũng là thành viên của AFC .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"AFC có bao nhiêu thành viên\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.134765625,
+      -0.45703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ngoài chức năng cơ bản cho phép khách hàng rút tiền mặt , in sao kê , chuyển khoản , nhiều ngân hàng đã bổ sung thêm dịch vụ bỏ tiền mặt , bỏ ngân phiếu vào tài khoản , thanh toán tiền điện , nước , điện thoại , mua thẻ cào điện thoại di động , bán vé hay các giao dịch điện tử trực tiếp khác cho các máy rút tiền tự động .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Máy rút tiền tự động còn được gọi là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.10546875,
+      -0.05694580078125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Những viên kim cương khác do hình thành qua nhiều giai đoạn nên tạo thành những lớp , vết khiến độ cứng kim cương giảm ( Taylor , 1990 ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Kim cương cứng nhất được phát hiện ở đâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.1796875,
+      -0.177490234375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Lâu trước khi Mitr đóng vai chính trong bộ phim đầu tiên của mình , \" Chart Sua \" ( \" Bản năng hổ \" ) . Sau đó ông đã quyết định thay đổi tên của mình từ Pichet Pumhem thành Mitr Chaibancha . Anh đã thu hút sự chú ý của người hâm mộ điện ảnh sau khi đóng vai chính trong \" Chao Nakleng \" ( \" trùm gangster \" ) , bằng cách sử dụng tên nhân vật Rom Ritthikrai từ loạt tiểu thuyết của tác giả Sake Dusit \" Insee Daeng \" ( \" Đại bàng đỏ \" ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Mitr Chaibancha lập gia đình vào thời gian nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.0625,
+      -0.065185546875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ông còn trải qua các chức vụ Phó Văn phòng Ban Tuyên huấn Trung ương , Vụ trưởng Vụ Kiểm tra dân chủ - kỷ luật thuộc Uỷ ban Kiểm tra Trung ương , Cục trưởng Cục Lưu trữ thuộc Phủ Thủ tướng ( nay là Cục Văn thư và Lưu trữ Nhà nước thuộc Bộ Nội vụ ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Đào An Thái mất ở đâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.9599609375,
+      -0.5556640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Đặc biệt Hoà Thành có tỷ lệ hộ nghèo thấp nhất tỉnh ( 1,54% cuối năm 2017 ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"địa lý hòa thành như thế nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.2626953125,
+      -0.392578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Năm 1926 , Uỷ ban Quốc tế về Danh mục Động vật học ( ICZN ) đã đưa ra luận điểm 91 rằng loài chó nuôi \" Canis familiaris \" ( Linnaeus , 1758 ) được đưa vào danh sách chính thức . Năm 1957 , ICZN quy định trong luận điểm 451 rằng \" \" Canis dingo \" ( Meyer , 1793 ) là tên sử dụng cho loài chó dingo và được đưa vào danh sách chính thức của loài này .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Chó có tên Hán Việt là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.93896484375,
+      -0.56640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Thời đó , nhiều gia đình thường gạch 24 gạch phấn trắng lên cửa , và mỗi ngày xoá đi 1 gạch , hay là thắp 1 hàng nến , hay là mỗi ngày dán những tranh ảnh tôn giáo lên tường . Theo Viện Bảo tàng Bang Niederösterreich , lịch mùa Vọng làm bằng tay đầu tiên có từ năm 1851 , lịch in đầu tiên được phát hành tại Hamburg vào năm 1902 hay là 1903 .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Lịch mùa vọng rơi vào ngày nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.2734375,
+      -0.3984375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Máy chụp ảnh lai hay prosumer là một nhóm các máy chụp ảnh xem ngay hạng khá , nhìn bên ngoài giống máy chụp ảnh DSLR ( nên còn được gọi là máy chụp ảnh số giống DSLR , DSLR-like ) , có một số tính năng cao cấp của DSLR nhưng cũng có những tính năng của máy chụp ảnh xem ngay .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Máy chụp ảnh lai là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -2.767578125,
+      -0.1160888671875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Riêng thời Lê Thánh Tông , tổ chức được 12 khoa thi tiến sĩ , lấy đỗ 501 tiến sĩ , 9 trạng nguyên .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Lê Thánh tông ở ngôi được bao nhiêu năm\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.095703125,
+      -0.481201171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Vào năm 2010 , Manchester United đánh bại Aston Villa 2 – 1 để bảo vệ thành công chức vô địch Cúp Liên đoàn , đồng thời cũng là lần đầu tiên họ bảo vệ thành công chức vô địch một giải đấu cúp .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Cúp đầu tiên của Manchester United là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.2509765625,
+      -0.375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Truyền thuyết đầu tiên cổ đại nhất ghi chép lại nói về Huyền Vũ , Huyền Vũ mới đầu là một thánh thú sinh ra ở Sơn Hải Giới vào thời đại viễn cổ niết bàn khai thiên lập địa , Sơn Hải Giới được biết đó một thế giới của Thần Ma nơi có rất nhiều dị thú , thần thú và những vị Thần Tiên lớn cũng được sinh ra ở nơi này .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"thần Trấn Vũ tượng trưng cho ngôi sao gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.130859375,
+      -0.2291259765625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Sau khi phát hành ở thị trường Trung Quốc với tên gọi \" Justice Xwar \" , VNG đã mua lại bản quyền \" Võ Lâm Truyền Kỳ \" và ra mắt phiên bản đầu tiên vào năm 2005 . Tính đến tháng 4 năm 2014 , Võ Lâm Truyền Kỳ đã có tổng cộng gần 20 triệu người chơi với 86 server trong một thời điểm .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"VNG ban đầu có tên gọi là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.9287109375,
+      -0.2335205078125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Cuối đời Đông Tấn , sĩ tộc hào môn dựa vào những đặc quyền đặc lợi , trở nên tham lam , thối nát trong sinh hoạt , không ngừng tăng cường áp bức và bóc lột nhân dân . Sau trận Phì Thuỷ , nguy cơ ngoại xâm được tiêu trừ , hài lòng với cục diện tạm an trước mắt , Tấn Hiếu Vũ đế để mặc cho cha con Hội Kê vương Tư Mã Đạo Tử chuyên quyền , dẫn đến triều đình chia bè kết đảng , chính trị hủ bại , không ngừng diễn ra các cuộc đấu tranh đẫm máu .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Khởi nghĩa Tôn Ân diễn ra từ khi nào đến khi nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.27734375,
+      -0.433349609375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Năm 2011 Barca tiếp tục chu kì thành công khi vô địch Champions League lần thứ 4 sau khi đánh bại đội bóng đến từ Anh M.U và được xem là đội bóng mạnh nhất thế giới ở thời điểm hiện tại .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Sân vận động nào rộng thứ 4 trên thế giới\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.3759765625,
+      -0.36962890625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Thế Tông cũng tiến hành cải cách hệ thống lịch Triều Tiên , vốn trước đây dựa trên hệ quy chiếu là vĩ độ của kinh thành Trung Quốc . Vua Thế Tông là người đầu tiên trong lịch sử Triều Tiên ra lệnh cho các nhà thiên văn học Triều Tiên biên soạn một bộ lịch lấy kinh đô Hán Thành làm vĩ độ trung tâm .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Triều Tiên Thế Tổng là vua thứ mấy của Triều Tiên\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.794921875,
+      -0.049774169921875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Sau hơn bốn năm rời xa quê hương , tiền đạo Lê Công Vinh đã quyết định quay trở lại Sông Lam Nghệ An ( SLNA ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Lê Công Vinh sinh ra ở đâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.02734375,
+      -0.49951171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Mắm cáy là loại mắm làm từ cáy , một loại cua sống chủ yếu ở vùng duyên hải . Mắm cáy có màu nửa xanh nửa nâu , rất hợp để chấm rau lang luộc .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"mắm cáy là mắm gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.015625,
+      -0.0941162109375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Các đồng vị của nhôm có ứng dụng thực tế trong việc tính tuổi của trầm tích dưới biển , các vết mangan , nước đóng băng , thạch anh trong đá lộ thiên , và các thiên thạch . Tỷ lệ của Al-26 trên beryli-10 được sử dụng để nghiên cứu vai trò của việc chuyển hoá , lắng đọng , lưu trữ trầm tích , thời gian cháy và sự xói mòn trong thang độ thời gian 105 đến 106 năm ( về sai số ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Nhôm có mấy đồng vị\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.791015625,
+      -0.7294921875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Quận Phú Khương gồm 11 xã ; quận lỵ đặt tại Suối Đá , sau dời đến chợ Long Hoa ( nay thuộc thị trấn Hoà Thành ) . Địa bàn quận Phú Khương tương ứng với thành phố Tây Ninh , các huyện Hoà Thành , Tân Châu và một phần các huyện Tân Biên , Dương Minh Châu ngày nay ; huyện Hoà Thành ngày nay chỉ gồm phần nhỏ diện tích đất của quận Phú Khương xưa .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Huyện Hòa Thành có mấy đơn vị hành chính cấp xã\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.78466796875,
+      -0.7177734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Năm 17 tuổi , ông đỗ tiến sĩ và làm quan tước Quốc Công dưới triều Hậu lê , do chán ghét các phe phái tranh giành ngôi vua , ông cáo quan về ở ẩn nơi sinh ra ở làng Cổ Trai , huyện Nghi Dương phủ Kinh Môn , trấn Hải Dương xưa ( nay thuộc xã Ngũ Đoan , huyện Kiến Thuỵ , thành phố Hải Phòng ). Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Năm sinh của Mạc Đăng Lượng\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.91845703125,
+      -0.60693359375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Chính phủ Mỹ chỉ khuyến cáo dùng bao cao su để ngừa lây nhiễm ở những người có quan hệ tình dục với nhiều người .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Viêm gan siêu vi C có thể lây qua đường tình dục không\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.75439453125,
+      -0.701171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Toà án lao động Brasil tuyên bố các cuộc đình công là bất hợp pháp và ông đã bị tù giam một tháng .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Cơ quan nào tuyên bố các cuộc đình công của Lula là bất hợp pháp\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -4.60546875,
+      -0.051239013671875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ông hiện là đại biểu quốc hội Việt Nam khoá XIV , thuộc đoàn đại biểu tỉnh Hà Giang và Chủ tịch Hội Nông dân Việt Nam . , Uỷ viên Hội đồng Dân tộc của Quốc hội Việt Nam . Ông là uỷ viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khoá XII , Phó Trưởng ban thường trực Ban Dân vận Trung ương Đảng Cộng sản Việt Nam .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"ai là chủ tịch Hội Nông dân Việt Nam\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.1640625,
+      -0.446044921875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Ở V-League 2010 , Công Vinh ghi bàn đầu tiên vào ngày 7 tháng 3 năm 2010 vào lưới Nam Định trong chiến thắng 2-0 . Tại vòng 6 của Giải vô địch bóng đá Việt Nam 2010 , Lê Công Vinh đã có hành động \" lạy \" trọng tài Vũ Bảo Linh khiến anh bị Ban kỉ luật của VFF phạt treo giò 3 trận và 10 triệu đồng .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Công Vinh ghi bàn đầu tiên vào năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.2060546875,
+      -0.4130859375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Tầng bình lưu trên Sao Hoả thường nằm trong khoảng độ cao từ 70  km đến 140  km .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tầng bình lưu nằm ở vị trí nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.1435546875,
+      -0.45361328125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Vlorë được thành lập như một thuộc địa Hy Lạp vào thế kỷ 6 TCN dưới tên Aulon và liên tục có người ở trong suốt 26 thế kỷ . Thời hiện đại , thành phố , trong một thời gian ngắn , từng là thủ đô Albania . Đây là nơi mà vào ngày 28 tháng 11 , 1912 , tuyên ngôn độc lập của Albania được đọc .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Albania phát biểu tuyên ngôn độc lập ở đâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.4501953125,
+      -0.3173828125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Thực sự thì Phù Nam là một quốc gia hỗn hợp gồm nhiều tộc người khác nhau , do một xứ Phù Nam chánh tông nắm địa vị tôn chủ và các tiểu quốc kia phải thần phục và cống nạp cho nó .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Địa hình đất của nước Phù Nam như thế nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.23046875,
+      -0.404052734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Người ta còn làm mắm cáy cả con . Loại này có thể pha thêm nước cho tới khi nào chất trong con cáy ra hết chỉ còn lại phần xác. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"mắm cáy là mắm gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.16796875,
+      -0.11480712890625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Tranh chấp thường xuyên đã xảy ra giữa các lái xe Grab và các nhà khai thác taxi địa phương vì nhiều lái xe taxi đã phàn nàn về sự suy giảm số lượng hành khách và thu nhập của họ kể từ khi Grab và đối thủ cạnh tranh của Uber bắt đầu giành được chỗ đứng trong khu vực của họ .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Grab là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.1630859375,
+      -0.443359375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Haifa còn có hệ thống cáp treo du lịch . Tuyến cáp treo Stella Maris gồm sáu khoang , nối từ Bat Galim trên bờ biển sang tầng quan sát Stella Maris và tu viện trên núi Carmel . Hệ thống cáp treo Haifa phục vụ chủ yếu cho khách du lịch , di chuyển từ Bat Galim đến đỉnh núi Carmel .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tên gọi của hệ thống tàu điện ngầm ở Haifa\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.333984375,
+      -0.36181640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Hội được thành lập và phê duyệt điều lệ tại Quyết định số 57/2004/QĐ-BNV ngày 30/8/2004 của Bộ Nội Vụ . Văn phòng Hội đặt tại số 95/10 , phố Chùa Bộc , quận Đống Đa , Hà Nội .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tiền thân của Hội Công nghiệp Bê tông Việt Nam là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.021484375,
+      -0.49267578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Đến năm 2004 , Công Vinh ghi bàn đầu tiên ở V-League vào ngày 8 tháng 2 năm 2004 vào lưới Đồng Tháp . Anh nhận giải Cầu thủ trẻ xuất sắc nhất năm của bóng đá Việt Nam , nhận luôn giải Cầu thủ xuất sắc nhất năm . Công Vinh bắt đầu nhận được những lời chào mời từ những đội bóng khác , thậm chí là những đội bóng từ Nhật Bản và Ả Rập Xê Út với mức lương 8000 tới 10000 USD một tháng .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Công Vinh ghi bàn đầu tiên vào năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.197265625,
+      -0.442138671875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Năm 1527 , Mạc Thái Tổ lập lên triều Mạc , cho mời ông ra phò tá , ban tước Hoàng quận công .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Mạc Đăng Lượng được phong tước Hoàng quận công năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.2099609375,
+      -0.454345703125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Cùng năm , cô cũng thủ vai Liên bộ phim \" Người bất tử \" của đạo diễn Victor Vũ .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Jun Vũ đạt được giải thưởng nữ diễn viên xuất sắc nhất cho phim nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.34375,
+      -0.361572265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Đề xuất này đã gây ra những cuộc tranh luận đáng kể vào thời điểm liên quan đến đạo đức của thủ tục này .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Cấy ghép mặt là như thế nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.5556640625,
+      -0.27490234375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Luật Biển Việt Nam được Quốc hội của Việt Nam thông qua vào ngày 21/6/2012 . Luật này gồm 7 chương , 55 điều , có hiệu lực thi hành từ ngày 1/1/2013 . Chủ quyền của Việt Nam trên hai quần đảo Hoàng Sa và Trường Sa được khẳng định từ điều 1 của bộ luật .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Luật Biển Việt Nam được đưa ra vào ngày tháng năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.53515625,
+      -0.3095703125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Dù không có ghế thường trực tại Hội đồng Bảo an , Đức và Nhật Bản cũng được coi là các cường quốc bởi sức mạnh kinh tế và công nghệ .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Những đại cường quốc thường nắm sức mạnh về những mặt nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.08203125,
+      -0.1824951171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Đây là một trong những loài cá ngừ có giá trị kinh tế và được đánh bắt nhiều .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Các công cụ khai thác cá ngừ sọc dưa là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.9375,
+      -0.047637939453125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Cho đến nay , Lễ hội phố hoa Hà Nội đã được tổ chức vào các mùa Tết các năm 2009 , 2010 , 2012 .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Lễ hội phố hoa Hà Nội 2009 bắt đầu và kết thúc ngày nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.3642578125,
+      -0.40478515625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Như Thanh là một huyện miền núi thuộc tỉnh Thanh Hoá , Việt Nam . Huyện Như Thanh có diện tích tự nhiên 588,29 km² ( 2008 ) , dân số 85.152 người ( 2009 ) , với 3 dân tộc chủ yếu : Kinh , Thái và Mường .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Như Thanh thuộc tỉnh nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.296875,
+      -0.393310546875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Sashimi ( IPA : / ' saɕimi / tiếng Nhật : 刺身 | さしみ ; Hán Việt đọc là Thích thân ) là một món ăn truyền thống Nhật Bản mà thành phần chính là các loại hải sản tươi sống .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Sashimi là món ăn của nước nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.0712890625,
+      -0.49560546875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Bản đồ học đại cương bao gồm việc lập các bản đồ cho đa số quần chúng và vì thế nó bao gồm nhiều loại đặc điểm . Các bản đồ đại cương chứa nhiều chỉ dẫn và các hệ thống khu vực , thông thường chúng được sản xuất hàng loạt .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Các chức năng của bản đồ học là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.02734375,
+      -0.50927734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Là nhân vật phụ trong tác phẩm và qua đời trước khi hình thành Tam Quốc khá lâu , Viên Thuật được mô tả khá gần với lịch sử , không được tác giả tập trung xây dựng hư cấu , tô vẽ nhiều như những nhân vật chính Lưu Bị , Gia Cát Lượng , Tào Tháo .... Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Ông nội của Viên Thuật là ai\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.54833984375,
+      -1.3447265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Tại Canada , Huy hiệu Kỷ niệm 25 năm trị vì Nữ vương Elizabeth II đã được phát hành . Năm 1978 , bà đón nhận chuyến thăm của vị lãnh tụ cộng sản Rumani , Nicolae Ceauşescu , và năm sau là hai xảy ra hai sự kiện lớn : một là việc phát hiện ra Anthony Blunt , Thanh tra Bộ tranh của Nữ vương , là một điệp viên cộng sản ; vụ còn lại vụ ám sát người họ hàng bên chồng Bá tước Mountbatten xứ Miến Điện do Quân đội Cộng hoà Ireland Lâm thời thực hiện .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Elizabeth đánh dấu lễ kỷ niệm 25 năm trị vì vào năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.380859375,
+      -0.371337890625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Lực đẩy Ác-si-mét sẽ nâng khí cầu này bay lên giống như khí cầu khí nóng .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Thường khí cầu mặt trời có thể bay trong bao lâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.279296875,
+      -0.39013671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Philip là người báo tin này cho Nữ vương mới . Martin Charteris , khi đó Thư ký Trợ lý riêng của bà , đã hỏi bà muốn chọn tên gì để làm niên hiệu , và được bà trả lời : \" Elizabeth , tất nhiên \" . Elizabeth tuyên bố trở thành nữ vương tại nhiều quốc gia nơi bà được thừa kế ngai vàng , và đoàn người của vương thất nhanh chóng quay lại Vương quốc Anh .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Elizabeth II trở thành nữ hoàng khi nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.82666015625,
+      -0.64111328125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Về mặt lịch sử , dãy núi Pamir từng được coi là hành trình thương mại chiến lược giữa Kashgar và Kokand trên Con đường tơ lụa phía bắc và đã từng là mục tiêu của nhiều vụ tranh giành lãnh thổ . Con đường tơ lụa phía bắc ( dài khoảng 2.600  km ) nối liền kinh đô cổ đại của Trung Quốc là Tây An với phía tây , vượt qua dãy núi Pamir tới Khách Thập trước khi nối với Parthia cổ đại .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Ở dãy núi Pamir có cây thân gỗ không\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.71875,
+      -0.198974609375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Tại đây có nhà thờ giáo họ Oánh là nhà thờ có diện tích lớn tại thành phố Thái Nguyên .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Khu đô thị mới Túc Duyên rộng bao nhiêu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.548828125,
+      -0.063720703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Trong máy bay có cánh cố định vật thể khí động học để tạo lực nâng là đôi cánh của máy bay được gắn cố định vào thân . Vận tốc ngang của máy bay ( cũng đồng nghĩa với vận tốc dòng chảy bao máy bay nếu xét trong hệ quy chiếu gắn với máy bay ) có được nhờ lực tác động ngang sinh ra nhờ động cơ ( có thể thông qua cánh quạt hoặc dòng khí phản lực ) .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Ai là người đưa ra lý thuyết lực nâng máy bay\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.1224365234375,
+      -2.921875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Di tích lịch sử văn hoá Kim Liên ( gọi tắt là Khu di tích Kim Liên ) được Đảng Cộng sản Việt Nam và Nhà nước Việt Nam cho xây dựng từ thập niên sáu mươi của thế kỷ trước . Tới năm 1979 , Khu di tích Kim Liên được Bộ Văn hoá - Thông tin Việt Nam ( nay là Bộ Văn hoá , Thể thao và Du lịch ) công nhận là di tích lịch sử văn hoá quốc gia theo Quyết định số 54 VH / QĐ ngày 29 tháng 4 năm 1979 .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Diện tích của khu di tích Kim Liên là bao nhiêu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.712890625,
+      -0.17236328125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Cầu Kiền là một cây cầu tại Hải Phòng , bắc qua sông Cấm , nằm trên quốc lộ 10 , nối giữa huyện Thuỷ Nguyên và huyện An Dương .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Cầu Kiền nằm trên đường nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.6884765625,
+      -0.282470703125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Quái vật biển thường bị coi là huyền thoại và có nhiều truyền thuyết về các sinh vật khổng lồ cư ngụ dưới biển sâu ( nhưng có vẻ cũng giống quái vật hồ ) . Quái vật biển có thể có nhiều dạng : rồng biển , rắn biển , quái vật nhiều chân tay , nhầy nhụa hoặc có vẩy , thường phun ra các tia nước .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Các loài quái vật biển là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.072265625,
+      -0.505859375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Mặc dù những buổi lễ ăn mừng của người dân ở Anh có vẻ im ắng hơn so với 25 năm trước , một phần do cái chết của Vương Thái hậu ( mẹ của bà ) và em gái bà , Công chúa Margaret , vào đầu năm đó , người ta vẫn tổ chức những buổi tiệc đường phố và các sự kiện kỷ niệm ở nhiều địa phương .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Elizabeth đánh dấu lễ kỷ niệm 25 năm trị vì vào năm nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.34765625,
+      -0.364013671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: YxineFF 2011 thu hút hơn 2 triệu lượt xem trên internet và được hơn 20 tờ báo lớn nhỏ đưa tin , đăng bài về sự kiện .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Khởi đầu của YxineFF là sân chơi dành cho ai\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.9658203125,
+      -0.203369140625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Tổ tiên của loài chó bao gồm cả cáo và chó sói là một loài động vật có vú gần giống như chồn sinh sống ở các hốc cây vào khoảng 400 triệu năm trước . Còn loài chó như chúng ta thấy ngày nay được tiến hoá từ một loài chó nhỏ , màu xám .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Đặc điểm của loài chó là gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -0.771484375,
+      -0.7060546875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Tại Hoa Kỳ , \" Hello \" ra mắt ở vị trí quán quân bảng xếp hạng \" Billboard \" Hot 100 , trở thành đĩa đơn quán quân thứ tư của Adele trên bảng xếp hạng và phá vỡ một số kỷ lục , trong đó có kỷ lục cho đĩa đơn đầu tiên bán được hơn một triệu bản nhạc số trong một tuần .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Hello đã bán được bao nhiêu bảng\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.814453125,
+      -0.08038330078125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Isanavarman đã xây dựng kinh đô Isanapura ở gần Kompong Thom . Theo \" Tuỳ thư \" của Trung Hoa thì nơi đây có tới 20.000 gia đình sinh sống . Ngoài ra vương quốc còn có 30 thành thị do các tổng đốc cai quản và quan tước cũng tựa như Lâm Ấp .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Isanapura ở đâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.1494140625,
+      -0.441162109375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Trong mùa đông của bán cầu bắc , sự ấm lên đột ngột của tầng bình lưu thông thường có thể quan sát thấy được gây ra do sự hấp thụ của sóng Rossby trong tầng bình lưu .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Tầng bình lưu nằm ở vị trí nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.9609375,
+      -0.2457275390625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Với độ dài khoảng 1.067  km ( 663 dặm Anh ) ) nó là một trong những con sông dài nhất tại Kyrgyzstan .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"sông Sở còn được gọi là sông gì\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.439453125,
+      -0.328857421875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: \" Thuỷ điện Thác Mơ \" có công suất 150 MW với 2 tổ máy . Thuỷ điện Thác Mơ khởi công xây dựng từ cuối năm 1991 và đi vào hoạt động từ giữa năm 1995 .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Thủy điện Thác Mơ bắt đầu xây khi nào\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -0.92578125,
+      -0.5791015625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Cho đoạn văn sau: Cá đổng hay cá lượng Nhật Bản ( Danh pháp khoa học : \" Nemipterus japonicus \" ) là một loài cá biển trong họ cá lượng Nemipteridae thuộc bộ cá vược , phân bố ở Thái Bình Dương và Ấn Độ Dương . Chúng là loài cá biển có giá trị kinh tế và được khai thác quanh năm , có thể ăn tươi , phơi khô , đông lạnh và có trong một số siêu thị .. Đoạn văn trên có chứa câu trả lời cho câu hỏi \"Cá đổng thường sống chủ yếu ở đâu\" không?\nCâu trả lời:",
+      "choices": [
+        "Có chứa câu trả lời",
+        "Không chứa câu trả lời"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.205078125,
+      -0.4091796875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  }
+]

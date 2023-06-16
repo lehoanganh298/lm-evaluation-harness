@@ -1,0 +1,28 @@
+{
+  "results": {
+    "kiki_qae2squad": {
+      "exact": 20.0,
+      "f1": 56.71333781934291,
+      "HasAns_exact": 20.0,
+      "HasAns_f1": 56.71333781934291,
+      "NoAns_exact": 0,
+      "NoAns_f1": 0,
+      "best_exact": 20.0,
+      "best_f1": 56.71333781934291
+    }
+  },
+  "versions": {
+    "kiki_qae2squad": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/bloom7b1/,max_length=2000",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": true,
+    "limit": 50,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

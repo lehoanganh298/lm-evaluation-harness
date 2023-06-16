@@ -1,0 +1,2082 @@
+[
+  {
+    "doc": {
+      "query": "Câu hỏi: Bảo tàng Điêu khắc Chăm Đà Nẵng có phòng trưng bày Tháp Mẫm. Tháp Mẫm là di tích ở tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "Quảng Ninh",
+        "Ninh Bình",
+        "Bình Định"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -10.046875,
+      -4.63671875,
+      -1.9091796875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Apple sẽ ra mắt cửa hàng trực tuyến tại Việt Nam từ ngày nào?\nCâu trả lời:",
+      "choices": [
+        "18/5",
+        "18/6",
+        "18/7",
+        "18/8"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -7.9453125,
+      -7.25,
+      -8.2578125,
+      -7.6484375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Món ăn trong hình có sự xuất hiện của nguyên liệu nào dưới đây?\nCâu trả lời:",
+      "choices": [
+        "Đậu hũ, rau răm",
+        "Đậu hũ, rau thơm",
+        "Đậu hũ, rau tần ô"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -14.125,
+      -15.65625,
+      -18.984375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bún tôm là đặc sản của địa phương nào ở Việt Nam?\nCâu trả lời:",
+      "choices": [
+        "Bình Thuận",
+        "Bình Dương",
+        "Bình Phước",
+        "Đồng Nai"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -5.2734375,
+      -6.5546875,
+      -9.4296875,
+      -7.21484375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Khu Ramsar thứ 2.088 của thế giới thuộc huyện nào của tỉnh Cà Mau?\nCâu trả lời:",
+      "choices": [
+        "Năm Căn",
+        "Ngọc Hiển",
+        "Trần Văn Thời",
+        "U Minh"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.3359375,
+      -4.28125,
+      -4.34765625,
+      -3.673828125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thành phố có tên dài nhất Việt Nam thuộc tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "TP Phan Rang - Tháp Chàm, tỉnh Quảng Bình",
+        "TP Phan Rang - Tháp Chàm, tỉnh Bình Thuận",
+        "TP Phan Rang - Tháp Chàm, tỉnh Ninh Thuận"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -27.734375,
+      -17.859375,
+      -11.1015625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bàn thắng của Cristiano Ronaldo, 2018.\nCâu trả lời:",
+      "choices": [
+        "Dani Carvajal.",
+        "Marcelo.",
+        "Toni Kroos.",
+        "Luka Modric."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -17.109375,
+      -12.71875,
+      -14.484375,
+      -14.375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tỷ lệ trẻ bị dị tật sau khi mắc viêm màng não:\nCâu trả lời:",
+      "choices": [
+        "Cứ 10 trẻ thì 2 trường hợp bị dị tật",
+        "Cứ 10 trẻ thì 5 trường hợp bị dị tật",
+        "Cứ 10 trẻ thì 7 trường hợp bị dị tật"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -19.46875,
+      -20.671875,
+      -20.453125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thác K50 thuộc khu bảo tồn thiên nhiên nào ở Gia Lai?\nCâu trả lời:",
+      "choices": [
+        "Kon Chư Răng",
+        "Yok Đôn",
+        "Pù Mát"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -5.1796875,
+      -5.28515625,
+      -7.9765625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tên gọi khác của đền Vàng ở Ấn Độ là gì?\nCâu trả lời:",
+      "choices": [
+        "Taj Mahal",
+        "Harmandir Sahib",
+        "Ramanathaswamy"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.18359375,
+      -7.44921875,
+      -11.9453125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ông là trạng nguyên dưới triều vua nào?\nCâu trả lời:",
+      "choices": [
+        "Lê Thánh Tông",
+        "Lê Dụ Tông",
+        "Lê Thần Tông",
+        "Lê Trang Tông"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -3.529296875,
+      -6.65234375,
+      -7.890625,
+      -9.875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ngôi đền Harmandir Sahib được dát 100 kg vàng hiện ở nước nào?\nCâu trả lời:",
+      "choices": [
+        "Ấn Độ",
+        "Pakistan",
+        "Myanmar",
+        "Thái Lan"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -0.0694580078125,
+      -4.21875,
+      -10.1640625,
+      -9.6171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Lào còn có biệt danh là xứ sở?\nCâu trả lời:",
+      "choices": [
+        "Triệu voi",
+        "Chùa vàng",
+        "Kim chi",
+        "Rồng Kumodo"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -6.33203125,
+      -7.08984375,
+      -13.3203125,
+      -30.359375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Hòn đảo danh thắng nào sau đây nằm ở thành phố Nha Trang?\nCâu trả lời:",
+      "choices": [
+        "Bình Lập",
+        "Bình Ba",
+        "Hòn Mun",
+        "Hòn Khoai"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -7.328125,
+      -4.6875,
+      -1.578125,
+      -9.15625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thành phố nào đăng tin tuyển giám đốc diệt chuột?\nCâu trả lời:",
+      "choices": [
+        "New York",
+        "London",
+        "Berlin",
+        "Paris"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -9.453125,
+      -10.390625,
+      -10.4921875,
+      -9.4609375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ai được mệnh danh là “ông tổ nghề in”?\nCâu trả lời:",
+      "choices": [
+        "Thomas Edison",
+        "Nikola Telsa",
+        "Johannes Gutenberg",
+        "Bi Sheng"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -11.984375,
+      -33.28125,
+      -3.03125,
+      -12.171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Chirashizushi là loại sushi gì?\nCâu trả lời:",
+      "choices": [
+        "\"Sushi đủ màu\"",
+        "\"Sushi đông lạnh\"",
+        "\"Sushi rải rác\""
+      ],
+      "gold": 2
+    },
+    "result": [
+      -24.296875,
+      -18.734375,
+      -26.125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Chùa nào ở Gia Lai có  bảo tháp xá lợi cao 9 tầng?\nCâu trả lời:",
+      "choices": [
+        "Chùa Minh Thành",
+        "Chùa Linh Thành",
+        "Chùa Sinh Thành"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -6.4765625,
+      -10.046875,
+      -12.796875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Loài hoa nào sau đây là một nét đặc trưng ở vùng biển Cửa Lò?\nCâu trả lời:",
+      "choices": [
+        "Hoa lan biển",
+        "Hoa hồng biển",
+        "Hoa cúc biển"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -12.25,
+      -7.4453125,
+      -4.3125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ăn sau 20h gây tăng cân?\nCâu trả lời:",
+      "choices": [
+        "Đúng",
+        "Sai"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.48828125,
+      -3.37890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tên một ngọn núi ở New Guinea?\nCâu trả lời:",
+      "choices": [
+        "Puncak Jaya",
+        "Papua New Guine",
+        "Komodo",
+        "Lorentz"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.650390625,
+      -14.171875,
+      -8.5390625,
+      -11.859375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Mùa hoa ban trắng ở Đà Lạt bắt đầu từ tháng nào?\nCâu trả lời:",
+      "choices": [
+        "Tháng 10",
+        "Tháng 11",
+        "Tháng 12"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -3.5234375,
+      -3.484375,
+      -3.5
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Sườn nướng là thành phần chính trong món cơm nào?\nCâu trả lời:",
+      "choices": [
+        "Cơm hến",
+        "Cơm tấm",
+        "Cơm trộn"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.56640625,
+      -2.123046875,
+      -4.97265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Sai lầm khi đi vệ sinh có thể gây kích ứng da:\nCâu trả lời:",
+      "choices": [
+        "Lau, chùi quá mạnh",
+        "Lau, chùi nhẹ nhàng",
+        "Không rửa tay"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -17.53125,
+      -21.0625,
+      -4.17578125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: \"Đèn pha đại dương\" là món ăn độc đáo nào từ cá ngừ đại dương Phú Yên?\nCâu trả lời:",
+      "choices": [
+        "Mắt cá ngừ đại dương",
+        "Vây cá ngừ đại dương",
+        "Lòng cá ngừ đại dương"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -8.78125,
+      -11.21875,
+      -8.46875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tượng Phật Bà bằng đồng cao nhất châu Á nằm ở tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "Ninh Bình",
+        "Tây Ninh",
+        "Ninh Thuận"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.80078125,
+      -3.947265625,
+      -4.91015625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Người đứng đầu nhà nước Luxembourg hiện nay là…?\nCâu trả lời:",
+      "choices": [
+        "Vua",
+        "Thân vương",
+        "Tổng thống",
+        "Đại công tước"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -4.4375,
+      -9.453125,
+      -3.921875,
+      -9.71875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ở Ninh Thuận, Bình Thuận, người ta thường sử dụng thành phần nào sau đây kết hợp cùng bánh canh?\nCâu trả lời:",
+      "choices": [
+        "Chả bò",
+        "Chả cua",
+        "Chả cá"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -7.43359375,
+      -8.4609375,
+      -5.5234375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Người hùng Beowulf đã phải đối mặt với con quái vật nào?\nCâu trả lời:",
+      "choices": [
+        "Hrothgar",
+        "Grendel",
+        "Heorot",
+        "Minotaur"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -9.234375,
+      -3.404296875,
+      -7.375,
+      -8.0859375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Huyện Mù Cang Chải nằm về phía nào của tỉnh Yên Bái?\nCâu trả lời:",
+      "choices": [
+        "Trung tâm tỉnh",
+        "Phía tây tỉnh",
+        "Phía đông tỉnh"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -8.1015625,
+      -7.48828125,
+      -8.0859375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đảo khỉ ở Khánh Hòa nằm trong đầm (vịnh) nào?\nCâu trả lời:",
+      "choices": [
+        "Đầm Nha Khu",
+        "Đầm Nha Phu",
+        "Đầm Nha Thu"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -20.046875,
+      -6.05078125,
+      -15.8125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Hoa Sơn được mệnh danh là ngọn núi của…?\nCâu trả lời:",
+      "choices": [
+        "Phật giáo",
+        "Đạo giáo",
+        "Hindu giáo",
+        "Do Thái giáo"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -6.1953125,
+      -8.21875,
+      -15.78125,
+      -18.421875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Năm 2018 vừa qua là kỷ niệm bao nhiêu năm Quần thể di tích Cố đô Huế được UNESCO công nhận di sản văn hóa thế giới?\nCâu trả lời:",
+      "choices": [
+        "15 năm",
+        "20 năm",
+        "25 năm",
+        "30 năm"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.19140625,
+      -2.013671875,
+      -2.16796875,
+      -2.91796875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Trên Trái Đất hiện nay có tất cả mấy châu lục?\nCâu trả lời:",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -6.4921875,
+      -4.3125,
+      -1.59375,
+      -0.90625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thông thường đàn guitar có bao nhiêu dây?\nCâu trả lời:",
+      "choices": [
+        "4 dây",
+        "5 dây",
+        "6 dây",
+        "7 dây"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.34765625,
+      -4.53125,
+      -1.953125,
+      -4.0625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ngoài huyện Đắk Glong, tỉnh Đắk Nông còn có mấy huyện, thành phố?\nCâu trả lời:",
+      "choices": [
+        "Không có thành phố, 6 huyện",
+        "1 thành phố, 6 huyện",
+        "2 thành phố, 6 huyện"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -16.125,
+      -10.0078125,
+      -10.359375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Hải Phòng có món giải nhiệt nức tiếng nào?\nCâu trả lời:",
+      "choices": [
+        "Sâm dừa",
+        "Dừa dầm",
+        "Sữa chua trân châu dừa"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -16.453125,
+      -10.140625,
+      -15.0703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Sông Boiling còn có tên gọi nào khác?\nCâu trả lời:",
+      "choices": [
+        "Shanay-timpishka",
+        "Timpishka-Shanay",
+        "Shanay-timpi"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -56.34375,
+      -49.4375,
+      -44.96875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Sau khi tắm, chúng ta nên:\nCâu trả lời:",
+      "choices": [
+        "Lau khô người rồi đi ngủ",
+        "Dưỡng ẩm cho da"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -11.4765625,
+      -5.9609375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Với tiêu chuẩn Foqus cùng hệ thống quản lý nghiêm ngặt, mỗi hộp sữa tươi Cô Gái Hà Lan ra đời phải cam kết đạt chuẩn nào?\nCâu trả lời:",
+      "choices": [
+        "4 có",
+        "4 không",
+        "3 không"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -13.8671875,
+      -7.98046875,
+      -8.5703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Vì sao có năm có 365, có năm có 366 ngày?\nCâu trả lời:",
+      "choices": [
+        "Năm đẹp nên thêm ngày",
+        "Không theo quy tắc gì",
+        "Thời gian mỗi năm thừa tạo thành"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -25.546875,
+      -20.96875,
+      -31.515625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Món ăn yêu thích của nhiều thực khách khi tham quan rừng đước là gì?\nCâu trả lời:",
+      "choices": [
+        "Rau muống xào tỏi",
+        "Ghẹ rang muối",
+        "Vọp hấp gừng",
+        "Rỏi khô cá sặc rằn"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -10.765625,
+      -10.1171875,
+      -21.015625,
+      -31.546875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Cụm cây nào ở Văn Thánh Miếu Vĩnh Long từng được Hội Sinh vật cảnh Việt Nam công nhận cây di tích lịch sử - văn hóa?\nCâu trả lời:",
+      "choices": [
+        "Cụm cây sao",
+        "Cụm cây bàng",
+        "Cụm cây lim"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -10.953125,
+      -9.1484375,
+      -12.84375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Cá kho làng Vũ Đại là loại cá nào?\nCâu trả lời:",
+      "choices": [
+        "Cá rô",
+        "Cá diêu hồng",
+        "Cá trắm"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -2.072265625,
+      -4.75390625,
+      -1.7412109375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đâu là món gỏi phổ biến từ thanh trà?\nCâu trả lời:",
+      "choices": [
+        "Gỏi nai thanh trà",
+        "Gỏi mực thanh trà",
+        "Gỏi ba khía thanh trà"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -14.65625,
+      -9.921875,
+      -10.8046875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Siêu sét dài nhất thế giới được phát hiện ở đâu?\nCâu trả lời:",
+      "choices": [
+        "Bắc Mỹ",
+        "Nam Mỹ",
+        "Châu Mỹ"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -6.4453125,
+      -5.875,
+      -6.5078125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Nhân vật nào thường nói: “Tôi ra đây có phải xưng danh không nhỉ?” trong nghệ thuật múa rối nước?\nCâu trả lời:",
+      "choices": [
+        "Thị Màu",
+        "Ngư ông",
+        "Chú Tễu",
+        "Chị mõ làng"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -6.84375,
+      -11.3984375,
+      -7.4921875,
+      -23.546875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Chè hột gà trà xuất xứ từ nước nào?\nCâu trả lời:",
+      "choices": [
+        "Hàn Quốc",
+        "Trung Quốc",
+        "Triều Tiên"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.19921875,
+      -2.3828125,
+      -7.5625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Biển Tân Thành nằm ở tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "Tiền Giang",
+        "Hậu Giang",
+        "Kiên Giang"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -2.41796875,
+      -5.078125,
+      -2.541015625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Vì sao thịt đông là món ăn phù hợp với miền Bắc?\nCâu trả lời:",
+      "choices": [
+        "Vì thịt lợn ở miền Bắc ngon hơn",
+        "Vì thịt đông bảo quản được lâu",
+        "Vì khí hậu miền Bắc vào dịp Tết rất lạnh",
+        "Vì người miền Nam không thích ăn món lạnh"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -17.71875,
+      -9.15625,
+      -20.078125,
+      -18.921875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ai đóng vai trò là người kể chuyện trong Money Heist?\nCâu trả lời:",
+      "choices": [
+        "Tokyo",
+        "Moscow",
+        "The Professor",
+        "Không có ai"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -6.77734375,
+      -11.4765625,
+      -7.6796875,
+      -10.953125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Lăng Tả quân Lê Văn Duyệt với kiến trúc Cổng tam quan ấn tượng nằm tại quận nào của TP.HCM?\nCâu trả lời:",
+      "choices": [
+        "Quận Bình Thanh",
+        "Quận Bình Thành",
+        "Quận Bình Thạnh"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -12.625,
+      -15.4453125,
+      -4.15625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đâu là một địa danh ở Cát Tiên?\nCâu trả lời:",
+      "choices": [
+        "Bàu Sấu",
+        "Bàu Mấu",
+        "Bàu Tấu"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -8.8828125,
+      -14.859375,
+      -15.796875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Xắp xắp là đặc sản của địa phương nào?\nCâu trả lời:",
+      "choices": [
+        "Đà Lạt (Lâm Đồng)",
+        "Huế",
+        "Vũng Tàu (Bà Rịa - Vũng Tàu)"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -10.5625,
+      -4.14453125,
+      -13.6484375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tên hiệu của nhà yêu nước Huỳnh Thúc Kháng là?\nCâu trả lời:",
+      "choices": [
+        "Giới Sanh",
+        "Tây Hồ",
+        "Thị Hán",
+        "Mính Viên"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -20.75,
+      -9.4375,
+      -15.8203125,
+      -19.703125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tác phẩm có tất cả mấy chương?\nCâu trả lời:",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -3.251953125,
+      -4.12890625,
+      -3.837890625,
+      -4.12890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bạn có nên uống nước ngay trước bữa ăn?\nCâu trả lời:",
+      "choices": [
+        "Có",
+        "Không"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.7568359375,
+      -0.69482421875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Từ ngày 15/3, Trung Quốc cho phép mở tour đến mấy nước?\nCâu trả lời:",
+      "choices": [
+        "10 nước",
+        "20 nước",
+        "30 nước",
+        "40 nước"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -3.84765625,
+      -6.171875,
+      -6.9921875,
+      -8.6640625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Cầu thủ nào phải bắt gôn trong trận gặp U23 Saudi Arabia rạng sáng 13/6?\nCâu trả lời:",
+      "choices": [
+        "Phan Tuấn Tài",
+        "Bùi Hoàng Việt Anh",
+        "Nhâm Mạnh Dũng",
+        "Nguyễn Văn Trường"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -12.6328125,
+      -9.7734375,
+      -10.4609375,
+      -9.890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đơn vị tiền tệ của Bangladesh hiện nay?\nCâu trả lời:",
+      "choices": [
+        "Đồng Taka",
+        "Đồng Peso",
+        "Đồng Rupes",
+        "Đồng Rupee"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -7.12890625,
+      -12.6875,
+      -19.09375,
+      -8.4140625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tên thủ đô của nước nào dài nhất thế giới?\nCâu trả lời:",
+      "choices": [
+        "Malaysia",
+        "Myanmar",
+        "Thái Lan"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -7.54296875,
+      -8.640625,
+      -7.4375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Phụ nữ bộ tộc nào ở Myanmar có tục kéo dài cổ làm đẹp?\nCâu trả lời:",
+      "choices": [
+        "Kayan",
+        "Yanomami",
+        "Korowai",
+        "Moussu"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -5.55859375,
+      -10.640625,
+      -8.390625,
+      -17.578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tác phẩm Don Quixote được sáng tác bằng ngôn ngữ nào?\nCâu trả lời:",
+      "choices": [
+        "Tiếng Anh cổ",
+        "Tiếng Italy",
+        "Tiếng Tây Ban Nha",
+        "Tiếng Hy Lạp"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -13.5859375,
+      -12.359375,
+      -0.38720703125,
+      -10.390625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Vùng biển huyện Hàm Thuận Nam, tỉnh Bình Thuận có ngọn hải đăng hơn trăm năm tuổi nào?\nCâu trả lời:",
+      "choices": [
+        "Hải đăng Kê Gà",
+        "Hải đăng Mũi Dinh",
+        "Hải đăng Gành Đèn"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.138671875,
+      -8.4609375,
+      -10.8671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Núi Bà Đen thuộc tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "Ninh Bình",
+        "Đồng Nai",
+        "Tây Ninh"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -10.9140625,
+      -7.4609375,
+      -0.06268310546875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đâu là đặc điểm riêng của kịch Nō (Noh), loại kịch cổ nhất của Nhật Bản?\nCâu trả lời:",
+      "choices": [
+        "Khán giả xem kịch phải mặc kimono",
+        "Diễn viên toàn nam giới",
+        "Động tác biểu diễn nhanh và mạnh",
+        "Luôn diễn ở sân khấu trong nhà"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -18.265625,
+      -15.0078125,
+      -21.9375,
+      -18.796875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Sản phẩm nào sau đây của Bến Tre cũng đã được bảo hộ chỉ dẫn địa lý?\nCâu trả lời:",
+      "choices": [
+        "Bưởi",
+        "Ổi",
+        "Quýt"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.857421875,
+      -7.3671875,
+      -6.17578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bưu điện cao nhất thế giới nằm ở nước nào?\nCâu trả lời:",
+      "choices": [
+        "Nhật Bản",
+        "Ấn Độ",
+        "Nepal"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.39453125,
+      -3.814453125,
+      -4.96875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ai suy tôn Tú Xương   là “thần thơ thánh chữ”?\nCâu trả lời:",
+      "choices": [
+        "Tản Đà",
+        "Nguyễn Công Hoan",
+        "Nguyễn Minh Châu",
+        "Chế Lan Viên"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -5.1015625,
+      -6.61328125,
+      -8.1015625,
+      -5.35546875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Độc tính của kiến ba khoang mạnh bao nhiêu lần nọc rắn hổ mang?\nCâu trả lời:",
+      "choices": [
+        "5-10 lần",
+        "10-15 lần",
+        "12-15 lần"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -9.6796875,
+      -9.6875,
+      -13.2890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thành phố nào ở miền Nam mới được thành lập đầu năm 2020?\nCâu trả lời:",
+      "choices": [
+        "Đồng Xoài",
+        "Hà Tiên",
+        "Ngã Bảy",
+        "Phụng Hiệp"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.14453125,
+      -4.9765625,
+      -8.9296875,
+      -9.5546875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Chợ nổi Cái Răng hình thành từ khi nào?\nCâu trả lời:",
+      "choices": [
+        "Nửa đầu thế kỷ 20",
+        "Đầu thế kỷ 19",
+        "Nửa cuối thế kỷ 20"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -10.8671875,
+      -8.1875,
+      -12.2109375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Trong \"Thượng kinh ký sự\", Lê Hữu Trác kể chuyện lên kinh chữa bệnh cho chúa nào?\nCâu trả lời:",
+      "choices": [
+        "Trịnh Tùng",
+        "Trịnh Sâm",
+        "Trịnh Giang",
+        "Trịnh Tông"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -6.64453125,
+      -4.0234375,
+      -5.90234375,
+      -8.109375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đến Hạ Long (Quảng Ninh), du khách có thể thưởng thức lẩu cá nào?\nCâu trả lời:",
+      "choices": [
+        "Lẩu cá lọp xọp",
+        "Lẩu cá lẹp xẹp",
+        "Lẩu cá lạp xạp"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -32.4375,
+      -24.828125,
+      -30.96875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ai được suy tôn là “Tiên thánh của thuốc Nam”?\nCâu trả lời:",
+      "choices": [
+        "Chu Văn An",
+        "Nguyễn Bá Tĩnh",
+        "Lê Hữu Trác",
+        "Lý Thời Trân"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -7.625,
+      -9.8359375,
+      -2.333984375,
+      -6.76171875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Loài cá nào mọc 30.000 chiếc răng trong suốt cuộc đời?\nCâu trả lời:",
+      "choices": [
+        "Cá mập trắng lớn",
+        "Cá mập",
+        "Cá mập bò",
+        "Cá mập Angular"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -10.328125,
+      -0.890625,
+      -8.0859375,
+      -17.421875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Làng Vũ Đại (Hà Nam) có món cá nổi tiếng nào?\nCâu trả lời:",
+      "choices": [
+        "Canh cá Quỳnh Côi",
+        "Cá kho niêu đất",
+        "Cá nướng niêu đất"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -15.21875,
+      -13.296875,
+      -15.7265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bò một nắng thường dùng với loại muối chấm nào sau đây?\nCâu trả lời:",
+      "choices": [
+        "Muối kiến vàng",
+        "Muối tôm Tây Ninh",
+        "Muối hồng tiêu"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -8.21875,
+      -11.296875,
+      -13.3671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Chùa nào nằm trên núi Cao Cát?\nCâu trả lời:",
+      "choices": [
+        "Chùa Linh Sơn",
+        "Chùa Vân Sơn",
+        "Chùa Thoại Sơn"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -6.47265625,
+      -7.6796875,
+      -13.6640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Nước Anh có đường biên giới trên bộ với...?\nCâu trả lời:",
+      "choices": [
+        "Scotland",
+        "Ireland",
+        "Đức",
+        "Iceland"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -5.85546875,
+      -5.07421875,
+      -3.94921875,
+      -6.21484375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thành viên nào của nhóm nhạc BlackPink lên bìa tạp chí Vogue Pháp số tháng 3?\nCâu trả lời:",
+      "choices": [
+        "Jisoo",
+        "Jennie",
+        "Rosé",
+        "Lisa"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.970703125,
+      -2.05859375,
+      -2.67578125,
+      -0.7255859375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ngoài huyện Mù Cang Chải, tỉnh Yên Bái còn có bao nhiêu thành phố, thị xã, huyện?\nCâu trả lời:",
+      "choices": [
+        "1 thành phố, không có thị xã, 6 huyện",
+        "2 thành phố, 1 thị xã, 6 huyện",
+        "1 thành phố, 1 thị xã, 6 huyện"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -16.921875,
+      -7.8203125,
+      -7.60546875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ăn nhiều cơm gây béo phì?\nCâu trả lời:",
+      "choices": [
+        "Đúng",
+        "Sai"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -2.1796875,
+      -1.9296875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Kỳ thi tuyển sinh riêng của Đại học Sư phạm Hà Nội gồm mấy môn?\nCâu trả lời:",
+      "choices": [
+        "6 môn",
+        "7 môn",
+        "8 môn",
+        "9 môn"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -4.4375,
+      -5.34765625,
+      -5.6875,
+      -6.1484375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Momos là món ăn gì ở Bhutan?\nCâu trả lời:",
+      "choices": [
+        "Thịt xào kiểu Tây Tạng",
+        "Chả hấp kiểu Tây Tạng",
+        "Bánh bột có nhân kiểu Tây Tạng"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -17.953125,
+      -24.515625,
+      -28.3125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Người nước nào ăn 12 quả nho vào đêm giao thừa để cầu may?\nCâu trả lời:",
+      "choices": [
+        "Anh",
+        "Pháp",
+        "Nhật",
+        "Tây Ban Nha"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -5.9375,
+      -3.390625,
+      -2.6171875,
+      -4.97265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Nước nào rộng lớn nhất Bắc Mỹ?\nCâu trả lời:",
+      "choices": [
+        "Mỹ",
+        "Canada",
+        "Mexico",
+        "Brazil"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.16796875,
+      -0.53564453125,
+      -2.45703125,
+      -4.84765625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Ở miền Nam, mâm cúng vía Thần Tài không thể thiếu món gì?\nCâu trả lời:",
+      "choices": [
+        "Cá lóc nướng",
+        "Cá quả nướng",
+        "Cá chép nướng"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -4.671875,
+      -14.8515625,
+      -8.8671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bạch Tuyết trong truyện \"Bạch Tuyết và bảy chú lùn\" với Bạch Tuyết của \"Bạch Tuyết và Hồng Hoa\" có phải một nhân vật không?\nCâu trả lời:",
+      "choices": [
+        "Có",
+        "Không"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.25390625,
+      -1.62890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Vùng nào có nhiều thành phố nhất nước ta?\nCâu trả lời:",
+      "choices": [
+        "Đông Bắc Bộ",
+        "Nam Trung Bộ",
+        "Tây Nam Bộ",
+        "Đông Nam Bộ"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -8.0078125,
+      -5.12890625,
+      -6.1015625,
+      -3.67578125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Đâu là một món ăn phổ biến từ bông atiso?\nCâu trả lời:",
+      "choices": [
+        "Canh atiso hầm dê thui",
+        "Canh atiso hầm giò heo",
+        "Canh atiso hầm cá đuối"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -28.578125,
+      -13.84375,
+      -21.78125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tỉnh lỵ của An Giang là thành phố nào?\nCâu trả lời:",
+      "choices": [
+        "Tịnh Biên",
+        "Châu Thành",
+        "Châu Đốc",
+        "Long Xuyên"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -5.0,
+      -5.4609375,
+      -0.270751953125,
+      -2.265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Táo Quân trong tiếng Anh là?\nCâu trả lời:",
+      "choices": [
+        "Apple army",
+        "Kitchen Gods",
+        "Chef captain"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -17.984375,
+      -14.546875,
+      -23.875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Một khu lăng khác cũng tọa lạc tại xã Hương Thọ, thị xã Hương Trà, nay là xã Hương Thọ, TP Huế?\nCâu trả lời:",
+      "choices": [
+        "Lăng Minh Mạng",
+        "Lăng Mạc Cửu",
+        "Lăng Quận Mãn"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.88671875,
+      -6.97265625,
+      -22.296875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bản thảo cuốn sách được viết trên hòn đảo nào?\nCâu trả lời:",
+      "choices": [
+        "Union",
+        "Greenland",
+        "Madagascar",
+        "Lindisfarne"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -13.90625,
+      -7.1171875,
+      -6.1875,
+      -12.7734375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Cụ Hồng, bố của vợ chồng Văn Minh, nổi tiếng với câu \"Biết rồi, khổ lắm, nói mãi!\". Trước khi nghỉ hưu, cụ làm gì?\nCâu trả lời:",
+      "choices": [
+        "Đốc tờ",
+        "Ông phán",
+        "Nhà báo",
+        "Phó đoan"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -16.09375,
+      -15.0234375,
+      -5.1328125,
+      -18.734375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Cung Nam Phương hoàng hậu hiện nằm trong khuôn viên điểm đến nào sau đây?\nCâu trả lời:",
+      "choices": [
+        "Bảo tàng Lâm Đồng",
+        "Khu du lịch Lang Biang",
+        "Nhà thờ Cam Ly"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -11.234375,
+      -13.515625,
+      -18.703125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tỷ lệ nam giới Việt Nam tiêu thụ rượu, bia ở mức nguy hiểm?\nCâu trả lời:",
+      "choices": [
+        "1/2 nam giới",
+        "1/3 nam giới",
+        "1/4 nam giới"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -13.609375,
+      -10.3671875,
+      -11.734375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tỷ số chức vô địch Champions League giữa Ronaldo và Messi là bao nhiêu?\nCâu trả lời:",
+      "choices": [
+        "5-4",
+        "4-4",
+        "4-3",
+        "5-3"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -5.3359375,
+      -5.5859375,
+      -5.078125,
+      -4.5703125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Phần lớn Australia sẽ bước sang năm mới 2019 vào thời điểm nào theo giờ Việt Nam?\nCâu trả lời:",
+      "choices": [
+        "20h ngày 31/12/2018",
+        "18h ngày 31/12/2018",
+        "16h ngày 31/12/2018",
+        "14h ngày 31/12/2018"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -8.0078125,
+      -9.109375,
+      -10.0234375,
+      -9.6171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  }
+]

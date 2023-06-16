@@ -1,0 +1,24 @@
+{
+  "results": {
+    "arc_easy": {
+      "acc": 0.705,
+      "acc_stderr": 0.014428554438445521,
+      "acc_norm": 0.711,
+      "acc_norm_stderr": 0.014341711358296186
+    }
+  },
+  "versions": {
+    "arc_easy": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/bloom7b1,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": true,
+    "limit": 1000,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

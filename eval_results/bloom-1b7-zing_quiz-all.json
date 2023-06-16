@@ -1,0 +1,24 @@
+{
+  "results": {
+    "zing_quiz": {
+      "acc": 0.43145811592828004,
+      "acc_stderr": 0.004824254916150605,
+      "acc_norm": 0.43297599848211743,
+      "acc_norm_stderr": 0.004826277919869642
+    }
+  },
+  "versions": {
+    "zing_quiz": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/bloom-1b7,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

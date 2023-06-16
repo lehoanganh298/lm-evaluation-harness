@@ -1,0 +1,2302 @@
+[
+  {
+    "doc": {
+      "id": "ACTAAP_2007_7_22",
+      "query": "Question: Which is the function of the gallbladder?\nAnswer:",
+      "choices": [
+        "store bile",
+        "produce bile",
+        "store digestive enzymes",
+        "produce digestive enzymes"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -9.9375,
+      -9.8359375,
+      -18.671875,
+      -16.671875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_190803",
+      "query": "Question: Which type of adaptation allows an animal to deceive its predator?\nAnswer:",
+      "choices": [
+        "large size",
+        "protective coloration",
+        "scent glands",
+        "leathery skin"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -11.6796875,
+      -13.9765625,
+      -13.1640625,
+      -14.328125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2012_4_21",
+      "query": "Question: Which three things do animals need from their environment in order to survive?\nAnswer:",
+      "choices": [
+        "soil, water, and food",
+        "soil, light, and water",
+        "air, food, and water",
+        "air, water, and light"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -8.828125,
+      -13.703125,
+      -5.71484375,
+      -10.1484375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7271740",
+      "query": "Question: When atmospheric carbon dioxide increases, some of the carbon dioxide dissolves in the ocean causing the ocean to become\nAnswer:",
+      "choices": [
+        "warmer.",
+        "cooler.",
+        "more acidic.",
+        "more alkaline."
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.10546875,
+      -8.21875,
+      -5.51953125,
+      -6.890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7016240",
+      "query": "Question: Which is the most important safety measure to follow when using an acid in a classroom laboratory?\nAnswer:",
+      "choices": [
+        "wearing protective clothing and goggles",
+        "keeping the window open",
+        "closing the door to the hall",
+        "using bright fluorescent lights"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -15.9140625,
+      -15.6328125,
+      -23.828125,
+      -19.9375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "ACTAAP_2010_7_17",
+      "query": "Question: Which is an effect that cities have on the weather?\nAnswer:",
+      "choices": [
+        "Small numbers of plants cause rain to fall more often.",
+        "Large numbers of houses cause the wind to be stronger.",
+        "Small areas of open water cause fog to be more common.",
+        "Large areas of pavement cause the temperature to be hotter."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -41.84375,
+      -31.078125,
+      -45.125,
+      -36.78125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2015_4_4",
+      "query": "Question: Which two terms are used to describe weather?\nAnswer:",
+      "choices": [
+        "wind direction and amount of erosion",
+        "gravity and amount of rain",
+        "groundwater and cloud cover",
+        "air temperature and wind speed"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -30.171875,
+      -22.265625,
+      -22.078125,
+      -10.2734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7250285",
+      "query": "Question: A population of tree-climbing lizard lives on one bank of a large river. The other bank of the river is a treeless prairie. During a flood, 40 lizards were transferred to the prairie side of the river. After 200 generations, this transferred population of lizard lost the ability to climb.Which mechanism is most likely responsible for this loss of function within the transferred population?\nAnswer:",
+      "choices": [
+        "gene flow",
+        "natural selection",
+        "genetic drift",
+        "mutation"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -4.95703125,
+      -4.640625,
+      -4.1484375,
+      -3.322265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_LBS10041",
+      "query": "Question: In plants, what is responsible for passing traits from one generation to the next?\nAnswer:",
+      "choices": [
+        "chloroplasts",
+        "photosynthesis",
+        "roots",
+        "genes"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -5.12109375,
+      -4.2734375,
+      -6.06640625,
+      -5.05078125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_415265",
+      "query": "Question: In which way is a prokaryotic cell different from a eukaryotic cell?\nAnswer:",
+      "choices": [
+        "A prokaryotic cell is larger.",
+        "A prokaryotic cell has no nucleus.",
+        "A prokaryotic cell can reproduce itself.",
+        "A prokaryotic cell has a cell membrane."
+      ],
+      "gold": 1
+    },
+    "result": [
+      -14.90625,
+      -12.6484375,
+      -19.109375,
+      -15.453125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7238893",
+      "query": "Question: A cell completes the synthesization of a protein by adding a carbohydrate to the protein's structure. At which site in the cell is the carbohydrate added?\nAnswer:",
+      "choices": [
+        "the nucleus",
+        "a ribosome",
+        "a mitochondrion",
+        "the Golgi apparatus"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -5.09375,
+      -8.171875,
+      -11.3828125,
+      -9.0703125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7235603",
+      "query": "Question: Which current property of our solar system is mainly due to solar emissions occurring soon after the initiation of fusion in the Sun's core?\nAnswer:",
+      "choices": [
+        "directions of revolution of the planets",
+        "directions of rotation of the planets",
+        "distribution of moons among the planets",
+        "distribution of elements among the planets"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -31.34375,
+      -24.71875,
+      -32.96875,
+      -26.34375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7099260",
+      "query": "Question: The body is made up of many systems that interact with one another. For example, the skeletal system and the muscular system work together to help the body move. Which system works with the respiratory system to distribute oxygen to the body?\nAnswer:",
+      "choices": [
+        "muscular system",
+        "digestive system",
+        "lymphatic system",
+        "circulatory system"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -4.40625,
+      -5.32421875,
+      -7.1328125,
+      -4.83984375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "MEAP_2005_8_33",
+      "query": "Question: When soil becomes saturated during rainfall, excess water begins to collect on the surface. Downslope movement of this excess water to rivers, lakes, and streams is called\nAnswer:",
+      "choices": [
+        "runoff.",
+        "filtration.",
+        "groundwater.",
+        "condensation."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -6.5234375,
+      -11.859375,
+      -10.5859375,
+      -12.828125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_175963",
+      "query": "Question: The discovery of penicillin helped in the\nAnswer:",
+      "choices": [
+        "treatment of infections.",
+        "healing of bones.",
+        "discovery of viruses.",
+        "search for diseases."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -8.75,
+      -19.875,
+      -16.46875,
+      -16.9375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7121905",
+      "query": "Question: In what form do plants store the energy produced from sunlight?\nAnswer:",
+      "choices": [
+        "radiant",
+        "thermal",
+        "chemical",
+        "mechanical"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -11.671875,
+      -10.578125,
+      -7.81640625,
+      -9.34375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_402332",
+      "query": "Question: What type of rock was the fossil most likely found in?\nAnswer:",
+      "choices": [
+        "igneous",
+        "volcanic",
+        "sedimentary",
+        "metamorphic"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -4.6015625,
+      -4.72265625,
+      -3.943359375,
+      -4.62890625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_415350",
+      "query": "Question: Which is an inherited characteristic on a horse?\nAnswer:",
+      "choices": [
+        "a long mane",
+        "a steel shoe",
+        "a missing tooth",
+        "a bruised leg"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -11.6484375,
+      -18.484375,
+      -14.46875,
+      -18.234375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_405943",
+      "query": "Question: Which part makes a plant cell different from an animal cell?\nAnswer:",
+      "choices": [
+        "cell membrane",
+        "cell wall",
+        "cytoplasm",
+        "nucleus"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -7.3359375,
+      -7.3828125,
+      -6.078125,
+      -7.94921875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2008_4_27",
+      "query": "Question: Some birds fly south in the fall and return in the spring. This is an example of\nAnswer:",
+      "choices": [
+        "migration",
+        "camouflage",
+        "hibernation",
+        "growth"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -0.947265625,
+      -9.328125,
+      -4.828125,
+      -8.6796875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7013895",
+      "query": "Question: Which scientist is best known for research that led to the modern understanding of the atom?\nAnswer:",
+      "choices": [
+        "Newton",
+        "Dalton",
+        "Galileo",
+        "Copernicus"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -7.3671875,
+      -5.7421875,
+      -5.4609375,
+      -9.40625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7108063",
+      "query": "Question: Which of these has been controlled in an attempt to reduce the depletion of ozone in Earth's atmosphere?\nAnswer:",
+      "choices": [
+        "methods of filtering gasoline",
+        "use of chlorofluorocarbons (CFCs)",
+        "methods of radioactive waste storage",
+        "use of mercury (Hg) compounds"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -27.578125,
+      -17.703125,
+      -25.390625,
+      -28.03125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_403014",
+      "query": "Question: It takes 365 days for\nAnswer:",
+      "choices": [
+        "Earth to travel halfway around the Sun.",
+        "the Moon to travel halfway around Earth.",
+        "Earth to complete one orbit around the Sun.",
+        "the Moon to complete one orbit around Earth."
+      ],
+      "gold": 2
+    },
+    "result": [
+      -18.625,
+      -24.5,
+      -12.53125,
+      -17.671875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400662",
+      "query": "Question: A few types of birds live in the same ecosystem. Which of these characteristics would most likely affect how they compete with each other for food?\nAnswer:",
+      "choices": [
+        "the types of nests they build",
+        "the lengths of their tails",
+        "the shapes of their beaks",
+        "the colors of their feathers"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -15.234375,
+      -15.6640625,
+      -12.484375,
+      -10.8984375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_401319",
+      "query": "Question: An organism that breaks down dead plants and animals, returning matter back into the soil, is called a\nAnswer:",
+      "choices": [
+        "herbivore.",
+        "producer.",
+        "competitor.",
+        "decomposer."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -11.2265625,
+      -11.265625,
+      -12.4375,
+      -4.34375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7221445",
+      "query": "Question: The driver of a car at a railroad crossing hears a change in pitch of the train whistle as the train passes by. This change in pitch is most likely due to\nAnswer:",
+      "choices": [
+        "the Doppler effect.",
+        "the Compton effect.",
+        "a change in medium.",
+        "a change in speed."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -15.8984375,
+      -21.328125,
+      -20.859375,
+      -11.7890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_405800",
+      "query": "Question: A person must lift a heavy load of bricks to the top of a building. Which simple machine is best used for this task?\nAnswer:",
+      "choices": [
+        "a wedge",
+        "a pulley",
+        "an inclined plane",
+        "a wheel and axle"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -6.9609375,
+      -6.51953125,
+      -5.69921875,
+      -9.0078125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "TAKS_2009_8_39",
+      "query": "Question: Squirrels in cold climates gather and store food for winter. The squirrels sometimes bury nuts and then do not return for them. These nuts can grow to become trees. This chain of events is an example of\nAnswer:",
+      "choices": [
+        "predation",
+        "seed distribution",
+        "competition",
+        "seed fossilization"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -6.55859375,
+      -15.90625,
+      -7.64453125,
+      -16.421875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "TIMSS_1995_8_I14",
+      "query": "Question: When you bend your arm at the elbow, the bones and muscles in your arm are acting as a system. What simple machine does this system represent?\nAnswer:",
+      "choices": [
+        "Inclined plane",
+        "Pulley",
+        "Wedge",
+        "Lever"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -15.2109375,
+      -10.921875,
+      -12.765625,
+      -11.171875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400035",
+      "query": "Question: Which tool is best to use when comparing an animal cell to a plant cell?\nAnswer:",
+      "choices": [
+        "balance",
+        "compass",
+        "microscope",
+        "thermometer"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -10.359375,
+      -11.0625,
+      -2.00390625,
+      -10.375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2008_4_4",
+      "query": "Question: Which material is the best conductor of electricity?\nAnswer:",
+      "choices": [
+        "metal",
+        "glass",
+        "wood",
+        "plastic"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.564453125,
+      -4.48828125,
+      -4.28515625,
+      -6.92578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_178938",
+      "query": "Question: Of the following types of cells, which has the highest concentration of mitochondria?\nAnswer:",
+      "choices": [
+        "bone",
+        "muscle",
+        "nerve",
+        "skin"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -7.08203125,
+      -4.87890625,
+      -6.83203125,
+      -9.0078125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_401253",
+      "query": "Question: A student mixes a teaspoon of sugar in a large glass of water. What happens to the sugar when it is mixed with the water?\nAnswer:",
+      "choices": [
+        "It boils.",
+        "It melts.",
+        "It dissolves.",
+        "It evaporates."
+      ],
+      "gold": 2
+    },
+    "result": [
+      -10.2890625,
+      -8.6875,
+      -6.1484375,
+      -9.9375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2010_4_25",
+      "query": "Question: The function of a plant's roots is to take in\nAnswer:",
+      "choices": [
+        "light and water",
+        "light and air",
+        "nutrients and water",
+        "nutrients and soil"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -8.625,
+      -11.03125,
+      -5.3828125,
+      -10.1640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7268030",
+      "query": "Question: Which of these is a threat to the survival of an ecosystem?\nAnswer:",
+      "choices": [
+        "predator-prey population cycles",
+        "less biomass at higher levels of the food web",
+        "a shrinking variety of animal and plant species",
+        "competition among some consumer populations"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -19.8125,
+      -35.125,
+      -29.21875,
+      -35.375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "ACTAAP_2011_5_6",
+      "query": "Question: Which mineral, found in Arkansas, is an ore that can be used to produce aluminum?\nAnswer:",
+      "choices": [
+        "quartz",
+        "galena",
+        "bauxite",
+        "diamond"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.52734375,
+      -6.66796875,
+      -3.662109375,
+      -8.15625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "OHAT_2010_8_24",
+      "query": "Question: Fungi recycle leaves in forests. Fungi release chemicals onto the leaves to break them down into smaller particles. The fungi use the small particles for growth. Which process allows fungi to obtain the nutrients they need from dead leaves?\nAnswer:",
+      "choices": [
+        "circulation",
+        "digestion",
+        "reproduction",
+        "respiration"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -12.0859375,
+      -8.578125,
+      -9.7890625,
+      -5.02734375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7202353",
+      "query": "Question: When the soil is saturated, earthworms move to the top of the soil to obtain oxygen. This behavior is evidence of which biological concept in earthworms?\nAnswer:",
+      "choices": [
+        "learned behavior",
+        "migration instinct",
+        "response to stimuli",
+        "reproductive strategy"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -9.8203125,
+      -16.75,
+      -14.421875,
+      -11.7265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_415413",
+      "query": "Question: How is weather related to climate?\nAnswer:",
+      "choices": [
+        "Climate is the long-term average of a region's weather.",
+        "Climate describes the weather of a large area.",
+        "Weather is the long-term average of a region's climate.",
+        "Weather describes the climate of a large area."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -24.703125,
+      -26.203125,
+      -27.46875,
+      -26.578125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "VASoL_2008_3_38",
+      "query": "Question: Ice cubes are an example of which form of water?\nAnswer:",
+      "choices": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "Natural"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -6.265625,
+      -1.7802734375,
+      -3.576171875,
+      -6.890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_401172",
+      "query": "Question: While performing an experiment involving four different clear liquids, a student forgets to label the test tubes. What should the student do?\nAnswer:",
+      "choices": [
+        "try to identify the liquids by smell",
+        "ask another student to identify the liquids",
+        "ask the teacher how to dispose of the liquids",
+        "continue the experiment with the unidentified liquids"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -23.96875,
+      -20.84375,
+      -29.53125,
+      -26.609375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_LBS10591",
+      "query": "Question: Which is most likely to cause an organism to become endangered or extinct?\nAnswer:",
+      "choices": [
+        "habitat loss",
+        "behavioral changes",
+        "increased reproduction rate",
+        "altered migration patterns"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -4.4375,
+      -12.375,
+      -18.40625,
+      -20.4375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2015_4_13",
+      "query": "Question: Which color baseball cap would absorb the most light on a sunny day?\nAnswer:",
+      "choices": [
+        "pink",
+        "black",
+        "white",
+        "yellow"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.58984375,
+      -2.181640625,
+      -2.775390625,
+      -2.291015625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_400752",
+      "query": "Question: When crossing parents with genotypes Rr and rr, what will be the percentages of the genotypes of the offspring?\nAnswer:",
+      "choices": [
+        "75% Rr, 25% rr",
+        "50% Rr, 50% rr",
+        "100% Rr",
+        "100% rr"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -8.03125,
+      -5.93359375,
+      -6.25,
+      -7.53515625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7037380",
+      "query": "Question: When a prairie ecosystem was disturbed, an invasive grass species outcompeted the native grass. The new grass had less nutritional value for the organisms living in the area. Which category of organism will be affected by this change first?\nAnswer:",
+      "choices": [
+        "predators",
+        "herbivores",
+        "scavengers",
+        "decomposers"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.14453125,
+      -3.5703125,
+      -10.640625,
+      -7.765625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7187250",
+      "query": "Question: When a volcano erupts, new lava is deposited on the slopes of the volcano. After the lava cools and hardens, which types of organisms will most likely be the first to live on the new material?\nAnswer:",
+      "choices": [
+        "large reptiles and amphibians",
+        "small birds and mammals",
+        "mosses and lichens",
+        "bushes and vines"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -15.28125,
+      -12.59375,
+      -12.140625,
+      -20.1875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "ACTAAP_2014_5_12",
+      "query": "Question: A blacksmith bends a metal rod into a round wheel. Which statement best describes the wheel?\nAnswer:",
+      "choices": [
+        "The wheel weighs less than the rod.",
+        "The wheel weighs more than the rod.",
+        "The wheel is made of the same substance as the rod.",
+        "The wheel is made of a different substance than the rod."
+      ],
+      "gold": 2
+    },
+    "result": [
+      -18.15625,
+      -17.1875,
+      -22.25,
+      -23.765625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_LBS10254",
+      "query": "Question: Which of the following shows the correct sequence of inventions?\nAnswer:",
+      "choices": [
+        "printing press -> microscope -> telephone",
+        "television -> automobile -> microwave",
+        "airplane -> microphone -> radio",
+        "Doppler radar -> microphone -> telescope"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -23.1875,
+      -26.359375,
+      -26.015625,
+      -34.40625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_177678",
+      "query": "Question: To calculate the relative age of rocks, geologists use the rate of radioactive decay of isotopes present in their samples. What is the term used for the original amount of the elemental isotopes being investigated?\nAnswer:",
+      "choices": [
+        "rare earth isotopes",
+        "son isotopes",
+        "daughter isotopes",
+        "parent isotopes"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -14.8046875,
+      -21.578125,
+      -13.1484375,
+      -10.875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400126",
+      "query": "Question: Sedimentary rock helps scientists piece together the history of Earth most likely using clues from\nAnswer:",
+      "choices": [
+        "humus.",
+        "soil.",
+        "gravel.",
+        "fossils."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -16.671875,
+      -11.828125,
+      -13.7421875,
+      -6.47265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7037258",
+      "query": "Question: Which best describes the structure of an atom?\nAnswer:",
+      "choices": [
+        "a lightweight core surrounded by neutral particles",
+        "a massive core surrounded by negatively-charged particles",
+        "a network of interacting positive and negative particles",
+        "overlapping layers of neutral, positive, and negative particles"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -35.15625,
+      -34.90625,
+      -30.140625,
+      -35.75
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7115255",
+      "query": "Question: Some wasp species lay their eggs inside living caterpillars. As the eggs mature, they use the caterpillar as a food resource. Eventually, the wasp larvae hatch out of the caterpillar. This type of relationship is best described as\nAnswer:",
+      "choices": [
+        "predator-prey.",
+        "parasitic.",
+        "mutualistic.",
+        "commensalistic."
+      ],
+      "gold": 1
+    },
+    "result": [
+      -6.8203125,
+      -9.265625,
+      -7.3359375,
+      -15.5078125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2013_4_4",
+      "query": "Question: Matter is defined as anything that takes up space and has\nAnswer:",
+      "choices": [
+        "mass",
+        "texture",
+        "odor",
+        "color"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.38671875,
+      -8.5,
+      -10.84375,
+      -7.51171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7235673",
+      "query": "Question: Hawaii is composed mainly of volcanoes with gentle slopes and large surface areas. Which characteristics best describe the lava these volcanoes have released?\nAnswer:",
+      "choices": [
+        "relatively fluid and low viscosity",
+        "highly viscous and relatively cool",
+        "mix of hot gas and rock shards",
+        "mainly water vapor and large boulders"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -23.5625,
+      -23.546875,
+      -32.875,
+      -35.625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_410702",
+      "query": "Question: The length of a year on Earth is a little over 365 days. The length of a year on a planet is best described as the time it takes for which to occur?\nAnswer:",
+      "choices": [
+        "the planet to revolve once around the Sun",
+        "the seasons to complete a full cycle",
+        "the planet to rotate once on its axis",
+        "the Sun to rotate once on its axis"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -26.34375,
+      -25.125,
+      -25.75,
+      -27.15625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_LBS10619",
+      "query": "Question: What remains in the same location in the sky of the Northern Hemisphere each night?\nAnswer:",
+      "choices": [
+        "the Sun",
+        "the Little Dipper",
+        "the North Star",
+        "the Moon"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.00390625,
+      -12.375,
+      -7.6015625,
+      -4.08203125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400193",
+      "query": "Question: Fossil fuels are formed\nAnswer:",
+      "choices": [
+        "in shallow areas over short periods of time.",
+        "from the remains of organisms.",
+        "in underground reservoirs that are relatively cool.",
+        "by high winds and temperatures."
+      ],
+      "gold": 1
+    },
+    "result": [
+      -33.28125,
+      -16.5625,
+      -31.390625,
+      -27.5625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7123305",
+      "query": "Question: Some scientists study images of very distant celestial bodies. Where is the best location for the types of telescopes that can provide the scientists with the clearest images.\nAnswer:",
+      "choices": [
+        "at sea level",
+        "in outer space",
+        "on mountain tops",
+        "at higher latitudes"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -7.828125,
+      -9.4375,
+      -11.0546875,
+      -11.671875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_401358",
+      "query": "Question: Which substance is magnetic and conducts heat?\nAnswer:",
+      "choices": [
+        "wood",
+        "plastic",
+        "iron",
+        "paper"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -7.375,
+      -8.4375,
+      -1.171875,
+      -10.296875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2013_8_41",
+      "query": "Question: Which form of energy is produced when a rubber band vibrates?\nAnswer:",
+      "choices": [
+        "chemical",
+        "light",
+        "electrical",
+        "sound"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -5.61328125,
+      -5.31640625,
+      -5.09765625,
+      -3.693359375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7165043",
+      "query": "Question: The U.S. Environmental Protection Agency (EPA) was established in 1970 to address problems that existed in the environment. Which is the EPA most likely interested in reducing?\nAnswer:",
+      "choices": [
+        "the emissions from volcanic activity",
+        "the level of pollution caused by people",
+        "the amount of ozone in the stratosphere",
+        "the amount of oxygen produced by trees"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -24.8125,
+      -16.8125,
+      -16.28125,
+      -23.046875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "TIMSS_1995_8_K15",
+      "query": "Question: Fossil fuels were formed from\nAnswer:",
+      "choices": [
+        "uranium",
+        "sea water",
+        "sand and gravel",
+        "dead plants and animals"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -7.44921875,
+      -7.44921875,
+      -9.0078125,
+      -10.8125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "ACTAAP_2010_5_13",
+      "query": "Question: Many things can contribute to the development of a theory. A student made a list of some things that might help scientists develop a theory. Observations Calculations Conversations Publications From the student's list, which must be used in the development of every theory?\nAnswer:",
+      "choices": [
+        "Observations",
+        "Conversations",
+        "Publications and calculations",
+        "Calculations and conversations"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -2.201171875,
+      -6.9296875,
+      -13.40625,
+      -12.328125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7216580",
+      "query": "Question: Which system protects the body by responding to the presence of a virus?\nAnswer:",
+      "choices": [
+        "respiratory system",
+        "skeletal system",
+        "immune system",
+        "excretory system"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -4.51953125,
+      -9.6953125,
+      -1.0634765625,
+      -9.7109375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7162558",
+      "query": "Question: Materials made of the same substance will have characteristics in common. Which property is most likely to remain constant in different samples of the same material?\nAnswer:",
+      "choices": [
+        "density",
+        "mass",
+        "shape",
+        "volume"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -2.55859375,
+      -3.69921875,
+      -6.55859375,
+      -4.99609375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "MDSA_2013_8_2",
+      "query": "Question: Each layer of Earth has different properties. Which statement best describes the mantle of Earth?\nAnswer:",
+      "choices": [
+        "The mantle lies below the core.",
+        "The mantle is composed of hot gases.",
+        "The mantle lies between the core and the crust.",
+        "The mantle temperature is lower than the crust temperature."
+      ],
+      "gold": 2
+    },
+    "result": [
+      -19.203125,
+      -20.125,
+      -18.53125,
+      -21.65625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400003",
+      "query": "Question: Spider webs help spiders\nAnswer:",
+      "choices": [
+        "avoid predators.",
+        "capture food.",
+        "stay dry.",
+        "keep warm."
+      ],
+      "gold": 1
+    },
+    "result": [
+      -14.71875,
+      -14.3515625,
+      -16.46875,
+      -13.1640625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7248203",
+      "query": "Question: Two species of garter snake in the genus Thamnophis originated from a single ancestor. These two species live in the same geographic area, however, one lives in arid land and the other lives in water.Which of the following best identifies the cause of speciation between these two garter snakes?\nAnswer:",
+      "choices": [
+        "mechanical isolation",
+        "behavioral isolation",
+        "habitat isolation",
+        "allopatric isolation"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -12.90625,
+      -12.546875,
+      -10.2109375,
+      -14.8828125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7081673",
+      "query": "Question: Which piece of safety equipment is used to keep mold spores from entering the respiratory system?\nAnswer:",
+      "choices": [
+        "safety goggles",
+        "breathing mask",
+        "rubber gloves",
+        "lead apron"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -5.796875,
+      -6.92578125,
+      -5.109375,
+      -14.2578125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7167038",
+      "query": "Question: Heart cells have fibers that slide up and down and cause contractions. Which types of specialized cells can contract?\nAnswer:",
+      "choices": [
+        "bone cells",
+        "nerve cells",
+        "muscle cells",
+        "white blood cells"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -8.2265625,
+      -6.68359375,
+      -3.216796875,
+      -9.2265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7234395",
+      "query": "Question: Overuse of which water resource tends to cause land to subside?\nAnswer:",
+      "choices": [
+        "ocean water",
+        "aquifer water",
+        "river water",
+        "lake water"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -8.734375,
+      -9.421875,
+      -6.53125,
+      -9.4921875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2015_4_6",
+      "query": "Question: Which unit of measurement should be used to describe the  mass of an apple?\nAnswer:",
+      "choices": [
+        "gram",
+        "liter",
+        "minute",
+        "meter"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -3.013671875,
+      -9.703125,
+      -12.109375,
+      -8.390625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_401221",
+      "query": "Question: A student put a metal pot on the stove to boil some water. The metal transferred heat to the water through\nAnswer:",
+      "choices": [
+        "radiation.",
+        "insulation.",
+        "convection.",
+        "conduction."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -5.3359375,
+      -10.0078125,
+      -4.25,
+      -2.623046875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "AKDE&ED_2008_8_18",
+      "query": "Question: The Sun heats the atmosphere of Earth unevenly. Which of the following is the most likely result of this uneven heating?\nAnswer:",
+      "choices": [
+        "Convection in the atmosphere causes a change in air density, resulting in winds.",
+        "Conduction through the atmosphere causes evaporation to occur over oceans, resulting in rain.",
+        "Radiation from the Sun will reflect through the atmosphere back into space resulting in cooler evenings.",
+        "Radiation from the Sun will cause atmospheric moisture to collect over mountain ranges resulting in snowfall."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -40.71875,
+      -55.71875,
+      -58.1875,
+      -54.0
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "ACTAAP_2008_5_12",
+      "query": "Question: In which case does a physical change occur?\nAnswer:",
+      "choices": [
+        "Ice melts into water.",
+        "Bread burns in a toaster.",
+        "A cake bakes in an oven.",
+        "Two chemicals form a new substance."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -17.546875,
+      -43.3125,
+      -34.75,
+      -30.25
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7264180",
+      "query": "Question: In 2001, NASA launched a probe to investigate very low-energy radiation emitted when the universe began. What part of the electromagnetic spectrum does this probe observe and record?\nAnswer:",
+      "choices": [
+        "infrared",
+        "microwave",
+        "ultraviolet",
+        "visible"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.18359375,
+      -4.44921875,
+      -2.26171875,
+      -4.91796875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_410895",
+      "query": "Question: Darryl learns that freezing temperatures may help cause weathering. Which statement explains how freezing temperatures most likely cause weathering?\nAnswer:",
+      "choices": [
+        "by freezing the leaves on trees",
+        "by causing rocks to stick together",
+        "by turning acid rain into acid snow",
+        "by freezing water in the cracks of rocks"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -22.84375,
+      -18.859375,
+      -31.3125,
+      -23.25
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_LBS10948",
+      "query": "Question: What is one difference between birds and reptiles?\nAnswer:",
+      "choices": [
+        "Birds lay eggs and reptiles do not.",
+        "Reptiles are meat-eaters and birds are not.",
+        "Birds breathe oxygen and reptiles do not.",
+        "Reptiles are cold-blooded and birds are not."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -15.3125,
+      -24.125,
+      -15.6328125,
+      -23.6875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_LBS10976",
+      "query": "Question: The Wright Brothers' invention has had the greatest impact on\nAnswer:",
+      "choices": [
+        "transportation.",
+        "communication.",
+        "mass production.",
+        "space exploration."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -7.26171875,
+      -10.59375,
+      -13.5625,
+      -11.484375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_LBS10267",
+      "query": "Question: Which of the following was invented by Benjamin Franklin?\nAnswer:",
+      "choices": [
+        "bifocal lens",
+        "telescope lens",
+        "telephone",
+        "camera"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -15.5546875,
+      -16.734375,
+      -4.83984375,
+      -7.49609375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7025025",
+      "query": "Question: In the rock cycle an igneous rock forms from\nAnswer:",
+      "choices": [
+        "cooling temperatures",
+        "high pressure and heat",
+        "weathering and erosion",
+        "compacted plant remains"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -14.6484375,
+      -13.046875,
+      -11.328125,
+      -23.796875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2015_8_32",
+      "query": "Question: Which device directly converts chemical energy into electrical energy?\nAnswer:",
+      "choices": [
+        "solar-powered calculator",
+        "wood-burning stove",
+        "battery-powered flashlight",
+        "wind-powered sailboat"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -20.796875,
+      -13.09375,
+      -19.03125,
+      -19.25
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400181",
+      "query": "Question: Which characteristic best identifies a pure substance?\nAnswer:",
+      "choices": [
+        "shape",
+        "texture",
+        "melting point",
+        "state of matter"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -5.81640625,
+      -6.56640625,
+      -6.015625,
+      -11.71875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7222845",
+      "query": "Question: Which of these events is an example of a change in climate?\nAnswer:",
+      "choices": [
+        "Afternoon clouds form and block the sunlight.",
+        "A series of tornadoes occurs over a one-week period.",
+        "An overnight temperature drop causes frost to form.",
+        "The average amount of annual precipitation decreases."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -42.8125,
+      -38.4375,
+      -32.34375,
+      -25.734375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7126875",
+      "query": "Question: A helium-filled balloon is released into the atmosphere. As the balloon rises, which would most likely increase and cause the balloon to burst?\nAnswer:",
+      "choices": [
+        "the mass of the helium",
+        "the density of the helium",
+        "the volume of the helium",
+        "the temperature of the helium"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -10.9296875,
+      -9.9921875,
+      -11.296875,
+      -9.2890625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "LEAP__7_10345",
+      "query": "Question: What is the main reason humans need nitrogen to survive?\nAnswer:",
+      "choices": [
+        "Nitrogen is used in respiration to generate energy.",
+        "Nitrogen is used in making the proteins in the body.",
+        "Nitrogen is used to help the body eliminate wastes.",
+        "Nitrogen is used by nerve cells to conduct impulses."
+      ],
+      "gold": 1
+    },
+    "result": [
+      -21.59375,
+      -25.84375,
+      -29.640625,
+      -32.09375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2012_8_11",
+      "query": "Question: Which health condition is an infectious disease?\nAnswer:",
+      "choices": [
+        "pneumonia caused by microorganisms",
+        "heart problem caused by a high-fat diet",
+        "lung cancer caused by smoking",
+        "eye damage caused by ultraviolet light"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -15.1328125,
+      -28.359375,
+      -16.609375,
+      -22.03125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_417472",
+      "query": "Question: How are dormancy and hibernation similar in animals?\nAnswer:",
+      "choices": [
+        "metabolic rate and body temperature both increase",
+        "metabolic rate and body temperature both decrease",
+        "metabolic rate increases and body temperature decreases",
+        "metabolic rate decreases and body temperature increases"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -26.328125,
+      -24.890625,
+      -23.9375,
+      -23.1875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "TIMSS_2011_4_pg14",
+      "query": "Question: During freezing, melting, and boiling, water changes from one state to another state. Heat needs to be supplied for which of these to take place?\nAnswer:",
+      "choices": [
+        "boiling only",
+        "melting only",
+        "melting and freezing but not boiling",
+        "melting and boiling but not freezing"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -11.2734375,
+      -12.03125,
+      -14.671875,
+      -13.8125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "CSZ20334",
+      "query": "Question: Gravity is responsible for the ___.\nAnswer:",
+      "choices": [
+        "orbits of the planets around the Sun",
+        "rotation of a planet on its axis",
+        "tilt of Earth's axis",
+        "phases of the Moon"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -13.171875,
+      -16.75,
+      -11.59375,
+      -12.859375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2015_8_34",
+      "query": "Question: Which energy source is nonrenewable?\nAnswer:",
+      "choices": [
+        "sunlight",
+        "biomass",
+        "wind",
+        "fossil fuel"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -3.61328125,
+      -6.80078125,
+      -4.55078125,
+      -1.861328125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7205328",
+      "query": "Question: Which of the following results when hydrogen and chlorine chemically bond to form hydrogen chloride?\nAnswer:",
+      "choices": [
+        "a mixture",
+        "a solution",
+        "a compound",
+        "a precipitate"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -9.0234375,
+      -8.6953125,
+      -8.3046875,
+      -10.2265625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400526",
+      "query": "Question: The water cycle includes which processes?\nAnswer:",
+      "choices": [
+        "evaporation, condensation, precipitation",
+        "metamorphosis, evaporation, respiration",
+        "precipitation, perspiration, mitosis",
+        "fixation, decomposition, respiration"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -5.640625,
+      -18.5,
+      -29.03125,
+      -17.71875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "ACTAAP_2009_7_5",
+      "query": "Question: Which investigation might be used to demonstrate potential energy?\nAnswer:",
+      "choices": [
+        "Roll one ball toward another, and see what happens when they collide.",
+        "Place a glass of water in the freezer, and see how long the water takes to become solid.",
+        "Compress a spring by different amounts, and see how far it can launch a ball into the air.",
+        "Roll a ball from the top of an inclined plane and determine the amount of time it takes to get to the bottom."
+      ],
+      "gold": 2
+    },
+    "result": [
+      -46.78125,
+      -49.9375,
+      -64.8125,
+      -53.875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_7007473",
+      "query": "Question: The frequency of a wave is measured in\nAnswer:",
+      "choices": [
+        "hertz.",
+        "meters.",
+        "hertz/second.",
+        "meters/minute."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -4.19140625,
+      -10.03125,
+      -13.8046875,
+      -14.953125
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_402074",
+      "query": "Question: When entire communities in an ecosystem change over time, it is known as\nAnswer:",
+      "choices": [
+        "migration.",
+        "extinction.",
+        "overpopulation.",
+        "ecological succession."
+      ],
+      "gold": 3
+    },
+    "result": [
+      -11.734375,
+      -8.65625,
+      -16.84375,
+      -8.9609375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_400848",
+      "query": "Question: Which tool is used to observe the cell wall of a leaf?\nAnswer:",
+      "choices": [
+        "ruler",
+        "camera",
+        "hand lens",
+        "microscope"
+      ],
+      "gold": 3
+    },
+    "result": [
+      -7.02734375,
+      -6.18359375,
+      -7.57421875,
+      -2.01171875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "MSA_2012_8_28",
+      "query": "Question: Common soaps are often basic. Which of these is a property of a chemical base?\nAnswer:",
+      "choices": [
+        "sour taste",
+        "pH equal to 6",
+        "turns litmus paper blue",
+        "forms bubbles with limestone"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -14.328125,
+      -20.03125,
+      -23.9375,
+      -36.96875
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "Mercury_SC_405499",
+      "query": "Question: Jagged mountains would most likely become rounded hills through which process?\nAnswer:",
+      "choices": [
+        "erosion",
+        "deposition",
+        "volcanic activity",
+        "chemical change"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -1.1357421875,
+      -6.68359375,
+      -6.453125,
+      -10.546875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "id": "NYSEDREGENTS_2010_4_17",
+      "query": "Question: Which two life processes occur in both plants and humans?\nAnswer:",
+      "choices": [
+        "growing and reproducing",
+        "germinating and making food",
+        "growing and making food",
+        "germinating and reproducing"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -11.765625,
+      -21.671875,
+      -18.890625,
+      -13.71875
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 0.0
+    }
+  }
+]

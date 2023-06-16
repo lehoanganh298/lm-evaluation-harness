@@ -1,0 +1,210 @@
+[
+  {
+    "doc": {
+      "query": "Câu hỏi: Bảo tàng Điêu khắc Chăm Đà Nẵng có phòng trưng bày Tháp Mẫm. Tháp Mẫm là di tích ở tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "Quảng Ninh",
+        "Ninh Bình",
+        "Bình Định"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -11.1015625,
+      -5.42578125,
+      -2.9609375
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Apple sẽ ra mắt cửa hàng trực tuyến tại Việt Nam từ ngày nào?\nCâu trả lời:",
+      "choices": [
+        "18/5",
+        "18/6",
+        "18/7",
+        "18/8"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -9.625,
+      -8.921875,
+      -10.2265625,
+      -9.2265625
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Món ăn trong hình có sự xuất hiện của nguyên liệu nào dưới đây?\nCâu trả lời:",
+      "choices": [
+        "Đậu hũ, rau răm",
+        "Đậu hũ, rau thơm",
+        "Đậu hũ, rau tần ô"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -18.578125,
+      -17.0,
+      -24.9375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bún tôm là đặc sản của địa phương nào ở Việt Nam?\nCâu trả lời:",
+      "choices": [
+        "Bình Thuận",
+        "Bình Dương",
+        "Bình Phước",
+        "Đồng Nai"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -4.625,
+      -5.25,
+      -9.25,
+      -9.578125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Khu Ramsar thứ 2.088 của thế giới thuộc huyện nào của tỉnh Cà Mau?\nCâu trả lời:",
+      "choices": [
+        "Năm Căn",
+        "Ngọc Hiển",
+        "Trần Văn Thời",
+        "U Minh"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -1.3701171875,
+      -3.7890625,
+      -4.38671875,
+      -2.7734375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thành phố có tên dài nhất Việt Nam thuộc tỉnh nào?\nCâu trả lời:",
+      "choices": [
+        "TP Phan Rang - Tháp Chàm, tỉnh Quảng Bình",
+        "TP Phan Rang - Tháp Chàm, tỉnh Bình Thuận",
+        "TP Phan Rang - Tháp Chàm, tỉnh Ninh Thuận"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -33.875,
+      -22.453125,
+      -15.640625
+    ],
+    "metric": {
+      "acc": 1.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Bàn thắng của Cristiano Ronaldo, 2018.\nCâu trả lời:",
+      "choices": [
+        "Dani Carvajal.",
+        "Marcelo.",
+        "Toni Kroos.",
+        "Luka Modric."
+      ],
+      "gold": 0
+    },
+    "result": [
+      -26.03125,
+      -19.0,
+      -20.71875,
+      -20.53125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tỷ lệ trẻ bị dị tật sau khi mắc viêm màng não:\nCâu trả lời:",
+      "choices": [
+        "Cứ 10 trẻ thì 2 trường hợp bị dị tật",
+        "Cứ 10 trẻ thì 5 trường hợp bị dị tật",
+        "Cứ 10 trẻ thì 7 trường hợp bị dị tật"
+      ],
+      "gold": 2
+    },
+    "result": [
+      -34.03125,
+      -35.09375,
+      -35.84375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Thác K50 thuộc khu bảo tồn thiên nhiên nào ở Gia Lai?\nCâu trả lời:",
+      "choices": [
+        "Kon Chư Răng",
+        "Yok Đôn",
+        "Pù Mát"
+      ],
+      "gold": 0
+    },
+    "result": [
+      -5.75,
+      -4.21484375,
+      -7.234375
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 1.0
+    }
+  },
+  {
+    "doc": {
+      "query": "Câu hỏi: Tên gọi khác của đền Vàng ở Ấn Độ là gì?\nCâu trả lời:",
+      "choices": [
+        "Taj Mahal",
+        "Harmandir Sahib",
+        "Ramanathaswamy"
+      ],
+      "gold": 1
+    },
+    "result": [
+      -3.658203125,
+      -8.0390625,
+      -13.1328125
+    ],
+    "metric": {
+      "acc": 0.0,
+      "acc_norm": 0.0
+    }
+  }
+]

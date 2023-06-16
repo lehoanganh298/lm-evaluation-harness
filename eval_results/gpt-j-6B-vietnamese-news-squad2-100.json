@@ -1,0 +1,29 @@
+{
+  "results": {
+    "squad2": {
+      "exact": 1.0,
+      "f1": 2.2241018419363696,
+      "HasAns_exact": 0.0,
+      "HasAns_f1": 2.3096261168610748,
+      "NoAns_exact": 2.127659574468085,
+      "NoAns_f1": 2.127659574468085,
+      "best_exact": 47.0,
+      "best_f1": 47.01129943502825
+    }
+  },
+  "versions": {
+    "squad2": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/gpt-j-6B-vietnamese-news,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": false,
+    "limit": 100,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  },
+  "eval_time": 1605.720247745514
+}

@@ -1,0 +1,25 @@
+{
+  "results": {
+    "kiki_qac": {
+      "acc": 0.6010820045558086,
+      "acc_stderr": 0.008264056207111762,
+      "acc_norm": 0.6264236902050114,
+      "acc_norm_stderr": 0.00816410038206329
+    }
+  },
+  "versions": {
+    "kiki_qac": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/bloom-3b,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": false,
+    "limit": 10000,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  },
+  "eval_time": 2670.976560115814
+}

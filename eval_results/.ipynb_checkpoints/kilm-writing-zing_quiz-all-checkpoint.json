@@ -1,0 +1,24 @@
+{
+  "results": {
+    "zing_quiz": {
+      "acc": 0.4157100844322171,
+      "acc_stderr": 0.004800529798931856,
+      "acc_norm": 0.4165638933687506,
+      "acc_norm_stderr": 0.004801944736795789
+    }
+  },
+  "versions": {
+    "zing_quiz": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/kilm-writing,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

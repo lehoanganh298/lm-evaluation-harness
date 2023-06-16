@@ -1,0 +1,28 @@
+{
+  "results": {
+    "squad2": {
+      "exact": 16.3,
+      "f1": 20.92299708273816,
+      "HasAns_exact": 34.177215189873415,
+      "HasAns_f1": 43.9303735922746,
+      "NoAns_exact": 0.19011406844106463,
+      "NoAns_f1": 0.19011406844106463,
+      "best_exact": 52.9,
+      "best_f1": 52.9
+    }
+  },
+  "versions": {
+    "squad2": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/bloom-3b,max_length=2048",
+    "num_fewshot": 5,
+    "batch_size": null,
+    "device": null,
+    "no_cache": true,
+    "limit": 1000,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
