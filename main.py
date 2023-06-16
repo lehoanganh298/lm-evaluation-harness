@@ -4,7 +4,7 @@ import argparse
 import json
 import logging
 import fnmatch
-
+import time
 from lm_eval import tasks, evaluator
 
 logging.getLogger("openai").setLevel(logging.WARNING)
@@ -77,7 +77,8 @@ def main():
     if args.description_dict_path:
         with open(args.description_dict_path, "r") as f:
             description_dict = json.load(f)
-
+    
+    start = time.time()
     results = evaluator.simple_evaluate(
         model=args.model,
         model_args=args.model_args,
@@ -91,6 +92,8 @@ def main():
         decontamination_ngrams_path=args.decontamination_ngrams_path,
         check_integrity=args.check_integrity,
     )
+    eval_time = time.time() - start
+    results['eval_time'] = eval_time
 
     if 'inp_out' in results:
         if args.output_path:
@@ -99,6 +102,7 @@ def main():
             inp_out_file = 'inp_out.json'
         with open(inp_out_file,'w') as fw:
             json.dump(results['inp_out'], fw, ensure_ascii=False, indent=2)
+        results.pop('inp_out', None)
 
     if 'doc_results' in results:
         if args.output_path:
@@ -107,6 +111,7 @@ def main():
             doc_results_file = 'doc_results.json'
         with open(doc_results_file,'w') as fw:
             json.dump(results['doc_results'], fw, ensure_ascii=False, indent=2)
+        results.pop('doc_results', None)
 
     dumped = json.dumps(results, indent=2)
     print(dumped)
@@ -120,7 +125,7 @@ def main():
         f"num_fewshot: {args.num_fewshot}, batch_size: {args.batch_size}"
     )
     print(evaluator.make_table(results))
-
+    print("Total time:", eval_time)
 
 if __name__ == "__main__":
     main()

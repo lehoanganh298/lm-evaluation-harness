@@ -16,32 +16,24 @@
 
 
 # model=/data4/share_nlp/data/luannd/pretrained_model/LLaMA_hf/7B/
-model=/home/bloomz7b1mt
-tasks=kiki_qae2squad
-limit=1000
+# model=/home/gpt-j-6B-vietnamese-news
+# model=bloomz7b1mt
+model=bloom7b1
+# model=/home/kilm-writing
+# model=/home/bloom-3b
+# tasks=arc_easy
+tasks=kiki_qac
+# tasks=kiki_qae2squad
+# tasks=zing_quiz
+limit=10000
 python main.py \
     --model hf-causal-experimental \
     --num_fewshot 5 \
     --limit $limit \
-    --model_args pretrained=$model,max_length=2048 \
+    --model_args pretrained=/home/$model,max_length=2048 \
     --tasks $tasks \
-    --output_path "${model}-${tasks}-${limit}.json" \
-    --no_cache 
+    --output_path "/home/eval_results/${model}-${tasks}-${limit}.json" \
+    # --no_cache 
     # --device=cuda:0
     
 # ,load_in_8bit=True,device_map='auto'
-
-
-
-model=/home/bloom-1b7
-tasks=kiki_qae2squad
-limit=1000
-python main.py \
-    --model hf-causal-experimental \
-    --num_fewshot 5 \
-    --limit $limit \
-    --model_args pretrained=$model,max_length=2048 \
-    --tasks $tasks \
-    --output_path "${model}-${tasks}-${limit}.json" \
-    --no_cache 
-    # --device=cuda:0

@@ -437,8 +437,6 @@ class HuggingFaceAutoLM(BaseLM):
             else:
                 max_tokens = max_generation_length
             token_context = self.tok_encode_batch(context)
-            print(token_context['input_ids'].shape)
-            print('-'*30)
 
             responses = self._model_generate(
                 inputs=token_context,

@@ -24,9 +24,9 @@ limit=$3
 python main.py \
     --model hf-causal-experimental \
     --num_fewshot 5 \
-    --limit $limit \
-    --model_args pretrained=$model,max_length=2048 \
+    --model_args pretrained=/home/$model,max_length=2048 \
     --tasks $tasks \
-    --output_path "${model}-${tasks}-${limit}.json" \
-    --no_cache 
+    --output_path "/home/eval_results/${model}-${tasks}-${limit}.json" \
+    --limit $limit
+    # --no_cache 
     # --device=cuda:0

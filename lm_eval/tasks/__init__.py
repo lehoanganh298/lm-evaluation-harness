@@ -60,6 +60,9 @@ from . import pawsx
 from . import xnli
 from . import mgsm
 from . import kiki_qae2squad
+from . import zing_quiz
+from . import kiki_qac
+
 ########################################
 # Translation tasks
 ########################################
@@ -314,7 +317,9 @@ TASK_REGISTRY = {
     "crows_pairs_french_physical_appearance": crowspairs.CrowsPairsFrenchPhysicalAppearance,
     "crows_pairs_french_autre": crowspairs.CrowsPairsFrenchAutre,
     "kiki_qae2squad": kiki_qae2squad.Kiki_QAE,
-    
+    "zing_quiz": zing_quiz.ZingQuiz,
+    "kiki_qac": kiki_qac.Kiki_QAC,
+
     
     
     # Requires manual download of data.

@@ -261,7 +261,7 @@ def evaluate(
             x if req.index is None else x[req.index] for x, req in zip(resps, reqs)
         ]
 
-        inp_out[reqtype] = list(zip(resps, reqs))[:check_inp_out_num]
+        inp_out[reqtype] = list(zip(resps, req_args))[:check_inp_out_num]
 
         for resp, (i, task_name, doc, doc_id) in zip(resps, requests_origin[reqtype]):
             process_res_queue[(task_name, doc_id)].append((i, resp))
@@ -279,7 +279,7 @@ def evaluate(
 
         metrics = task.process_results(doc, requests)
         
-        doc_results.append({'doc': doc, 'result': requests, 'metric': metric})
+        doc_results.append({'doc': doc, 'result': requests, 'metric': metrics})
 
         for metric, value in metrics.items():
             vals[(task_name, metric)].append(value)
@@ -315,10 +315,12 @@ def evaluate(
     return_obj = {"results": dict(results), "versions": dict(versions)}
 
     if check_inp_out_num is not None:
-        return_obj['inp_out'] = inp_out[:check_inp_out_num]
+        return_obj['inp_out'] = inp_out
 
     if get_result_num is not None:
         return_obj['doc_results'] = doc_results[:get_result_num]
+    
+    return return_obj
 
 
 def make_table(result_dict):
